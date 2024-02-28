@@ -408,21 +408,4 @@ political_decisions = {
 			set_global_flag = ai_australia_annexed
 		}
 	}
-######## CE additions ##############
-give_india_money = {
-		potential = {
-			tag = ENG
-		}
-		allow = {
-			   money = 100000
-		}
-
-		effect = {
-			money = -100000
-			}
-			HND = {
-			country_event = { id=9876 days=0 }
-		}
-		}
-		
 }
