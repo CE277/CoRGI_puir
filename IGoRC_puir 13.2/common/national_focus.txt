@@ -780,7 +780,7 @@ tier_6_focus =
 	input_output_craftsmen =
 	{
 		craftsmen = 0.10
-		local_factory_input = -0.0625 #-0.125
+		local_factory_input = -0.062 #-0.125
 		local_factory_output = 0.125 #0.25
 		outliner_show_as_percent = yes
 		icon = 64
@@ -794,7 +794,7 @@ tier_6_focus =
 	input_output_clerks =
 	{
 		clerks = 0.10
-		local_factory_input = -0.0625 #-0.125
+		local_factory_input = -0.062 #-0.125
 		local_factory_output = 0.125 #0.25
 		outliner_show_as_percent = yes
 		icon = 65
@@ -808,7 +808,7 @@ tier_6_focus =
 	input_output_soldiers =
 	{
 		soldiers = 0.10
-		local_factory_input = -0.0625 #-0.125
+		local_factory_input = -0.062 #-0.125
 		local_factory_output = 0.125 #0.25
 		outliner_show_as_percent = yes
 		icon = 66
@@ -821,7 +821,7 @@ tier_6_focus =
 	
 	input_output_rgos =
 	{
-		local_factory_input = -0.0625 #-0.125
+		local_factory_input = -0.062 #-0.125
 		local_factory_output = 0.125 #0.25
 		mine_rgo_eff = 0.2 #0.25
 		farm_rgo_eff = 0.2 #0.25
