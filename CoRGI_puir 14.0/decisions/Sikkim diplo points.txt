@@ -1,0 +1,18 @@
+political_decisions = {
+diplomacy_points = {
+		picture = ce
+		potential = {
+			has_country_flag = showing_host_decisions
+			has_country_flag = host_nation
+		}
+	
+		allow = {
+			
+		}
+		
+		effect = {
+		add_country_modifier = {
+				name = diplomacy_points
+				duration = -1
+		}
+	}

@@ -1,0 +1,18 @@
+political_decisions = {
+	set_crat_cap = {
+		alert = yes
+		picture = establish_the_sovnarkom
+		potential = {
+			ai = no
+		}
+		allow = {
+		
+		}
+		effect = {
+			country_event = 9999991
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

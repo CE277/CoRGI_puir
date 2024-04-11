@@ -1,0 +1,57 @@
+
+country_event = {
+	id = 91309
+	title = "Capital Supply Depot Built"
+	desc = "A capital supply depot will be built in your capital."
+
+
+	trigger = {
+		ai = no
+		war = no
+		OR = {
+			capital_scope = {
+				NOT = { has_province_modifier = capital_supply_depot }
+			}
+			any_owned_province = {
+				is_capital = no
+				has_province_modifier = capital_supply_depot
+			}
+		}
+	}
+
+	option = {
+		name = "OK."
+		any_owned = {
+			limit = {
+				is_capital = no
+				has_province_modifier = capital_supply_depot
+			}
+			remove_province_modifier = capital_supply_depot
+		}
+		capital_scope = {
+			add_province_modifier = { name = capital_supply_depot duration = -1 }
+		}
+	}
+}
+
+
+country_event = {
+	id = 91308
+	title = "Capital Supply Depot Destroyed"
+	desc = "We have lost control over our Capital and our logistical Headquarters are destroyed."
+
+
+	trigger = { 
+		capital_scope = { 
+			has_province_modifier = capital_supply_depot
+			NOT = { controlled_by = THIS }
+		}
+	}
+	
+	option = { 
+		name = "We will get it back."
+		capital_scope = { 
+			remove_province_modifier = capital_supply_depot
+		}
+	}
+}
