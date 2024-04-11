@@ -1,6 +1,6 @@
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-V14.0: Checksum: VNQV
+V14.0: Checksum: COTU
 
 Name Change:
 
@@ -123,6 +123,7 @@ Ottomans:
 Persia:
 
 - Revive Mesopotamian Claims decision has been re-worked so Persia must now own Iraq while being civilised to get cores on it aside from being at peace there are no other requirements now.
+- Re-enabled reclaim Afghanistan decision for Persia
 
 Russia:
 

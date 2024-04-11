@@ -14,9 +14,9 @@ political_decisions = {
 			NOT = {	exists = KAL }
 		}
 		effect = {
-			#AFG = { all_core = { remove_core = AFG add_core = PER } }
-			#MAK = { all_core = { remove_core = MAK add_core = PER } }
-			#KAL = { all_core = { remove_core = KAL add_core = PER } }
+			AFG = { all_core = { remove_core = AFG add_core = PER } }
+			MAK = { all_core = { remove_core = MAK add_core = PER } }
+			KAL = { all_core = { remove_core = KAL add_core = PER } }
 			prestige = 10
 			random_country = {
 				limit = { owns = 1212 }
