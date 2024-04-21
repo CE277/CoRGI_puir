@@ -1,3 +1,52 @@
+V15.0 Checksum: 
+
+Economic changes:
+
+- Actually did the Foreign investment score nerf of 20%
+
+Tech Changes:
+
+- Mechanized mining now gives an additonal 10% iron throughput
+- Clean Coal now gives an additonal 10% iron throughput
+- Practical Steam Engine now gives an additional 5% farming and throughput
+- High & Low Pressure Steam Engines now gives an additonal 10% farming and throughput
+- Sanitation (Impressionism) now gives -10% War Exhaustion and -0.05 pop militancy and -0.05 consciousness in non-colonial states
+
+
+Austria:
+
+- Can now form the South German Federation (loses access to Austria-Hungary)
+- Can now form Germany if it forms SGF and owns/sphere/puppet all base German cores (like if Prussia was forming Germany)
+- South German formation now requires Sigmarien to be owned/puppeted/sphered
+
+China:
+
+- Changed Fuzhou RGO from Tea to Iron
+- Changed Jian RGO from Tea to Cotton
+
+France:
+
+- France has been given 23 Man O Wars and 13 frigates (this is the 50% of the Russian combat fleet). This gives France 56 Man O Wars and 43 frigates day 1
+- France has been given 10 transports (makes them have 20)
+
+Germany:
+
+- German LR nerfed from flat 40 to flat 38
+- Rhineland has been de-consolidated into Rhineland and Nordrhein
+- Increased Ruhr boom pop growth from 0.001 to 0.002
+
+Japan:
+
+- Changed Tokushima RGO from Tobacco to Livestock
+
+Persia:
+
+- Changed Isfahan RGO from Wool to Livestock
+
+Russia:
+
+- Split the Russian combat fleet in half and France will now have this '50%' of the fleet
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 V14.0: Checksum: COTU
