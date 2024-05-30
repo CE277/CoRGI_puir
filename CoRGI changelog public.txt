@@ -1,3 +1,11 @@
+V15.1 Checksum: BKWI
+
+Bug fixes:
+
+- Removed the California LR increase as the event infinitely fires 
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 V15.0 Checksum: IJBE
 
 Economic changes:
@@ -174,6 +182,7 @@ Persia:
 - Revive Mesopotamian Claims decision has been re-worked so Persia must now own Iraq while being civilised to get cores on it aside from being at peace there are no other requirements now.
 - Re-enabled reclaim Afghanistan decision for Persia
 
+
 Russia:
 
 - Russian Imperial Academy decision now gives the Academic Confusion modifer like changing a normal tech school would
@@ -247,6 +256,20 @@ Credits where they are due:
 - Orange You Say for giving the Danish Straights impassable idea
 - Rusty for giving the suggestion of making the California gold rush add life rating
 
+TODO:
+
+
+To-Do in future:
+
+- Consider reverting to old immigration system, compare more USA's first
+- Add new general system
+
+
+
+Military hospitals being decreased so casulties kill more pops(Reno aim, ask Ryan for any more information)
+- Recommend that stalemate rules need 75% of the state
+- Reference Redking DM's about stalemates and making events that transfer provinces based on occupation
+ 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 V13.5: Checksum: BBBO
