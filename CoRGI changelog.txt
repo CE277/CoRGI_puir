@@ -9,7 +9,7 @@ Bug Fixes:
 - Duplicate clipper factory removed from South East England
 - Duplicate naval base removed from Canterbury
 - Rostov now gets Breadbasket
-- Capitalised Trinket Health Care localisation
+- Capitalized Trinket Health Care localisation
 - Fixed bugged puppet war localisation
 - Fixed bugged ACW localisation
 - Fixed decision bugs that were preventing Hainan and Formosa being taken as treaty ports because of Hong Kong not being owned by China
@@ -20,13 +20,13 @@ Bug Fixes:
 
 CB Changes:
 
-- Made Dismantle Fortifcations cost 8ws an increase of 4ws
+- Made Dismantle Fortifications cost 8ws an increase of 4ws
 
 Combat Changes:
 
-- Completely re-balanced specialised units, in essence now you will only lose what advantage you get from it (As an example say offensive infantry has +1 attack but -1 attack compared to normal infantry)
+- Completely re-balanced specialized units, in essence now you will only lose what advantage you get from it (As an example say offensive infantry has +1 attack but -1 attack compared to normal infantry)
 - Made inventions that give unit stats a 100% base chance to invent 
-- Seperated inventions into their respective attack/defensive columns (like previously)
+- Separated inventions into their respective attack/defensive columns (like previously)
 - Incorporated Gezeitenwende army inventions and base unit stats: (These figures are tweaked from Res Publica and then in v1.01 partially the inventions are from this mod, the specialised unit rework is not in Gezeitenwende)
 
 ---------------------------------------------------------------------------
@@ -69,11 +69,11 @@ Culture Consolidation:
 - Consolidated Yakut pops into Siberian
 - Consolidated Khmer pops into Vietnamese 
 - Consolidated Min pops into Vietnamese
-- Consolidated Nepali pops into Tibetian
+- Consolidated Nepali pops into Tibetan
 - Consolidated Pueblo pops into Mexican
 - Consolidated Ugrian pops into Russian
 - Consolidated Dakota pops into American Minor
-- Consolidated Sami pops into Finnish/Norweigan
+- Consolidated Sami pops into Finnish/Norwegian
 - Consolidated Icelandic pops into Danish
 - Consolidated Inuit pops in Greenland into Danish
 - Consolidated Inuit pops in Alaska into American Minor
@@ -103,7 +103,7 @@ National Focus Changes:
 
 - Removed all tiered national focuses 
 - Reverted back to Vanilla national focuses
-- Kept the specialised reform desire, ship repair and migration NF's (Are obtained through Associationism)
+- Kept the specialized reform desire, ship repair and migration NF's (Are obtained through Associationism)
 
 National Value Changes:
 
@@ -120,17 +120,17 @@ Naval Changes:
 
 Promotion:
 
-- Re-added IGoR 10's 'National Passive Promotion bonuses' through the Pyschology tree (like in IGoR 10)
+- Re-added IGoR 10's 'National Passive Promotion bonuses' through the Psychology tree (like in IGoR 10)
 
 Tech Changes:
 
 - The 20% RGO Output inventions have been buffed to 22% (A net gain of 10% RGO output over the game)
 - Cheap Steel gives an additional 10% iron throughput
-- Mechanized mining now gives an additonal 20% iron mine size
+- Mechanized mining now gives an additional 20% iron mine size
 - Re-added invention in Naval Directionism that gives one national focus
 - Changed the two inventions in Naval Logistics that gave -15% Naval Supply Consumption to give -20% resulting in a net -10% supply consumption decrease
 - The above two inventions now also are a 100% base invention chance
-- Removed all reinforcement from the Military Science tree and moved it to Pyschology (in effect a reversal of IGoR 11 and 12 changes)
+- Removed all reinforcement from the Military Science tree and moved it to Psychology (in effect a reversal of IGoR 11 and 12 changes)
 
 Miscellaneous:
 
@@ -138,7 +138,7 @@ Miscellaneous:
 - Re-enabled overseas coring
 - Rebels will no longer break alliances on winning
 - Pacifism supply consumption has been nerfed by 10%
-- Made sanctions event give the sanctions modfier immediately (no more holding of the event)
+- Made sanctions event give the sanctions modifier immediately (no more holding of the event)
 - Turned alert off for removing unaccepted bureaucrats
 - Turned alert off for capping bureaucrats
 - Gave localisation to the inflation system killswitch
@@ -161,11 +161,11 @@ Miscellaneous:
 - Removed Dravidian as an accepted culture from Sri Lanka (consolidated)
 - Changed Cambodian primary culture to Vietnamese (consolidated)
 - Changed Luang Prabang primary culture to Vietnamese (consolidated)
-- Changed Nepal primary culture to Tibetian (consolidated)
-- Changed Bhutan primary culture to Tibetian (consolidated)
+- Changed Nepal primary culture to Tibetan (consolidated)
+- Changed Bhutan primary culture to Tibetan (consolidated)
 - Changed Sri Lanka primary culture to Indo-Aryan (consolidated)
 - Removed the Sanitarium event from the game 
-- Removed all pop-growth from size modifers (triggered modifiers)
+- Removed all pop-growth from size modifiers (triggered modifiers)
 - Straits for some Indonesian islands (helps with rebellions and might make the region all around more desirable and active)
 Ternate-Jilolo Ambon-Ceram Flores-Alor Lae-New Britain Ambon-Ternate
 - Added three checks ui addition to the lobby 
@@ -264,7 +264,7 @@ Italy:
 
 Japan:
 
-- Now starts civilised 
+- Now starts civilized 
 - Literacy reduced to 25%
 - Starts with the following techs:
 
