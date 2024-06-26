@@ -1,0 +1,920 @@
+country_event = {
+
+	id = 4760061
+
+	trigger = {
+		tag = FRA
+		NOT = { has_country_modifier = france_pop_boost }
+
+		OR = {
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 100
+					}
+				}
+				FRA = { prestige = 100 }
+				NOT = { FRA = { prestige = 150 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 150
+					}
+				}
+				FRA = { prestige = 150 }
+				NOT = { FRA = { prestige = 200 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 200
+					}
+				}
+				FRA = { prestige = 200 }
+				NOT = { FRA = { prestige = 250 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 250
+					}
+				}
+				FRA = { prestige = 250 }
+				NOT = { FRA = { prestige = 300 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 300
+					}
+				}
+				FRA = { prestige = 300 }
+				NOT = { FRA = { prestige = 350 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 350
+					}
+				}
+				FRA = { prestige = 350 }
+				NOT = { FRA = { prestige = 400 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 400
+					}
+				}
+				FRA = { prestige = 400 }
+				NOT = { FRA = { prestige = 450 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 450
+					}
+				}
+				FRA = { prestige = 450 }
+				NOT = { FRA = { prestige = 500 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 500
+					}
+				}
+				FRA = { prestige = 500 }
+				NOT = { FRA = { prestige = 550 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 550
+					}
+				}
+				FRA = { prestige = 550 }
+				NOT = { FRA = { prestige = 600 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 600
+					}
+				}
+				FRA = { prestige = 600 }
+				NOT = { FRA = { prestige = 650 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 650
+					}
+				}
+				FRA = { prestige = 650 }
+				NOT = { FRA = { prestige = 700 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 700
+					}
+				}
+				FRA = { prestige = 700 }
+				NOT = { FRA = { prestige = 750 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 750
+					}
+				}
+				FRA = { prestige = 750 }
+				NOT = { FRA = { prestige = 800 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 800
+					}
+				}
+				FRA = { prestige = 800 }
+				NOT = { FRA = { prestige = 850 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 850
+					}
+				}
+				FRA = { prestige = 850 }
+				NOT = { FRA = { prestige = 900 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 900
+					}
+				}
+				FRA = { prestige = 900 }
+				NOT = { FRA = { prestige = 950 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 950
+					}
+				}
+				FRA = { prestige = 950 }
+				NOT = { FRA = { prestige = 1000 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1000
+					}
+				}
+				FRA = { prestige = 1000 }
+				NOT = { FRA = { prestige = 1050 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1050
+					}
+				}
+				FRA = { prestige = 1050 }
+				NOT = { FRA = { prestige = 1100 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1100
+					}
+				}
+				FRA = { prestige = 1100 }
+				NOT = { FRA = { prestige = 1150 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1150
+					}
+				}
+				FRA = { prestige = 1150 }
+				NOT = { FRA = { prestige = 1200 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1200
+					}
+				}
+				FRA = { prestige = 1200 }
+				NOT = { FRA = { prestige = 1250 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1250
+					}
+				}
+				FRA = { prestige = 1250 }
+				NOT = { FRA = { prestige = 1300 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1300
+					}
+				}
+				FRA = { prestige = 1300 }
+				NOT = { FRA = { prestige = 1350 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1350
+					}
+				}
+				FRA = { prestige = 1350 }
+				NOT = { FRA = { prestige = 1400 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1400
+					}
+				}
+				FRA = { prestige = 1400 }
+				NOT = { FRA = { prestige = 1450 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1450
+					}
+				}
+				FRA = { prestige = 1450 }
+				NOT = { FRA = { prestige = 1500 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1500
+					}
+				}
+				FRA = { prestige = 1500 }
+				NOT = { FRA = { prestige = 1550 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1550
+					}
+				}
+				FRA = { prestige = 1550 }
+				NOT = { FRA = { prestige = 1600 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1600
+					}
+				}
+				FRA = { prestige = 1600 }
+				NOT = { FRA = { prestige = 1650 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1650
+					}
+				}
+				FRA = { prestige = 1650 }
+				NOT = { FRA = { prestige = 1700 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1700
+					}
+				}
+				FRA = { prestige = 1700 }
+				NOT = { FRA = { prestige = 1750 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1750
+					}
+				}
+				FRA = { prestige = 1750 }
+				NOT = { FRA = { prestige = 1800 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1800
+					}
+				}
+				FRA = { prestige = 1800 }
+				NOT = { FRA = { prestige = 1850 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1850
+					}
+				}
+				FRA = { prestige = 1850 }
+				NOT = { FRA = { prestige = 1900 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1900
+					}
+				}
+				FRA = { prestige = 1900 }
+				NOT = { FRA = { prestige = 1950 } }
+			}
+			AND = {
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1950
+					}
+				}
+				FRA = { prestige = 1950 }
+				NOT = { FRA = { prestige = 2000 } }
+			}
+		}
+	} 
+	mean_time_to_happen =  {
+		months = 0.001
+	}
+
+	immediate = {
+		add_country_modifier = {
+			name = france_pop_boost
+			duration = -1
+		}
+	}
+
+	title = "Liferating up"
+	desc = "Our prestigious standing in the international scene has reinvigorated our people to fuck"
+	picture = "celebration"
+
+	option = {
+		name = "Excellent"
+		prestige = 1
+	}
+}
+
+country_event = {
+
+	id = 4760062
+
+	trigger = {
+		tag = FRA
+		has_country_modifier = france_pop_boost
+
+		OR = {
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 100
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 150
+					}
+				}
+				NOT = { FRA = { prestige = 100 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 150
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 200
+					}
+				}
+				NOT = { FRA = { prestige = 150 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 200
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 250
+					}
+				}
+				NOT = { FRA = { prestige = 200 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 250
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 300
+					}
+				}
+				NOT = { FRA = { prestige = 250 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 300
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 350
+					}
+				}
+				NOT = { FRA = { prestige = 300 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 350
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 400
+					}
+				}
+				NOT = { FRA = { prestige = 350 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 400
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 450
+					}
+				}
+				NOT = { FRA = { prestige = 400 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 450
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 500
+					}
+				}
+				NOT = { FRA = { prestige = 450 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 500
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 550
+					}
+				}
+				NOT = { FRA = { prestige = 500 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 550
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 600
+					}
+				}
+				NOT = { FRA = { prestige = 550 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 600
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 650
+					}
+				}
+				NOT = { FRA = { prestige = 600 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 650
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 700
+					}
+				}
+				NOT = { FRA = { prestige = 650 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 700
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 750
+					}
+				}
+				NOT = { FRA = { prestige = 700 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 750
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 800
+					}
+				}
+				NOT = { FRA = { prestige = 750 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 800
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 850
+					}
+				}
+				NOT = { FRA = { prestige = 800 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 850
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 900
+					}
+				}
+				NOT = { FRA = { prestige = 850 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 900
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 950
+					}
+				}
+				NOT = { FRA = { prestige = 900 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 950
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1000
+					}
+				}
+				NOT = { FRA = { prestige = 950 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 1000
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1050
+					}
+				}
+				NOT = { FRA = { prestige = 1000 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 1050
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1100
+					}
+				}
+				NOT = { FRA = { prestige = 1050 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 1100
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1150
+					}
+				}
+				NOT = { FRA = { prestige = 1100 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 1150
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1200
+					}
+				}
+				NOT = { FRA = { prestige = 1150 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 1200
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1250
+					}
+				}
+				NOT = { FRA = { prestige = 1200 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 1250
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1300
+					}
+				}
+				NOT = { FRA = { prestige = 1250 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 1300
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1350
+					}
+				}
+				NOT = { FRA = { prestige = 1300 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 1350
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1400
+					}
+				}
+				NOT = { FRA = { prestige = 1350 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 1400
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1450
+					}
+				}
+				NOT = { FRA = { prestige = 1400 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 1450
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1500
+					}
+				}
+				NOT = { FRA = { prestige = 1450 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 1500
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1550
+					}
+				}
+				NOT = { FRA = { prestige = 1500 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 1550
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1600
+					}
+				}
+				NOT = { FRA = { prestige = 1550 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 1600
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1650
+					}
+				}
+				NOT = { FRA = { prestige = 1600 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 1650
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1700
+					}
+				}
+				NOT = { FRA = { prestige = 1650 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 1700
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1750
+					}
+				}
+				NOT = { FRA = { prestige = 1700 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 1750
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1800
+					}
+				}
+				NOT = { FRA = { prestige = 1750 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 1800
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1850
+					}
+				}
+				NOT = { FRA = { prestige = 1800 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 1850
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1900
+					}
+				}
+				NOT = { FRA = { prestige = 1850 } }
+			}
+			AND = {
+				any_greater_power = {
+					NOT = { tag = FRA }
+					prestige = 1900
+				}
+				NOT = {
+					any_greater_power = {
+						NOT = { tag = FRA }
+						prestige = 1950
+					}
+				}
+				NOT = { FRA = { prestige = 1900 } }
+			}
+		}
+	}
+ 
+	mean_time_to_happen =  {
+		months = 0.001
+	}
+
+	immediate = { remove_country_modifier = france_pop_boost }
+
+	title = "Liferating down"
+	desc = "Our prestigious standing in the international scene has fallen"
+	picture = "celebration"
+
+	option = {
+		name = "Merde"
+		prestige = -1
+	}
+}
