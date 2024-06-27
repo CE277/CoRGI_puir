@@ -223,6 +223,7 @@ political_decisions = {
 				truce_with = THIS
 				}
 			}
+			NOT = { has_country_flag = treaty_port_nation }
 		}
 		effect = {
 			sphere_owner = {
