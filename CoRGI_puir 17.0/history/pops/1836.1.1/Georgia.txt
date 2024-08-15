@@ -529,78 +529,78 @@
     aristocrats = {
         culture = turkish
         religion = sunni
-        size = 57
+        size = 50
     }
 
     clergymen = {
         culture = turkish
         religion = sunni
-        size = 57
+        size = 50
     }
 
     artisans = {
         culture = turkish
         religion = sunni
-        size = 172
+        size = 150
     }
 
     soldiers = {
         culture = turkish
         religion = sunni
-        size = 28
+        size = 25
     }
 
     farmers = {
         culture = turkish
         religion = sunni
-        size = 3133
+        size = 2725
     }
 
     clergymen = {
         culture = georgian
         religion = orthodox
-        size = 86
+        size = 75
     }
 
     artisans = {
         culture = georgian
         religion = orthodox
-        size = 230
+        size = 200
     }
 
     farmers = {
         culture = georgian
         religion = orthodox
-        size = 4283
+        size = 3725
     }
 
     aristocrats = {
         culture = georgian
         religion = sunni
-        size = 230
+        size = 200
     }
 
     clergymen = {
         culture = georgian
         religion = sunni
-        size = 143
+        size = 125
     }
 
     artisans = {
         culture = georgian
         religion = sunni
-        size = 690
+        size = 600
     }
 
     soldiers = {
         culture = georgian
         religion = sunni
-        size = 143
+        size = 125
     }
 
     farmers = {
         culture = georgian
         religion = sunni
-        size = 12937
+        size = 11250
     }
 }
