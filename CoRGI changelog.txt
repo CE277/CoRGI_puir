@@ -1,3 +1,410 @@
+V17.0: Checksum: (BNST)
+
+CoRGI Mapmod:
+
+- Added a complementary custom map-mod alongside the mod
+
+
+Bug-Fixes:
+
+- Fixed a bug around Vassals getting tech for 1RP if their overlord had it 
+- Fixed China's Ex-Substate CB being able to be used on other nations 
+- Fixed China's Ex-Substate CB being able to take states that are not allowed under normal 'China Rules' (Basically just Gansu and Sichuan aside from the Russian Siberian stuff )
+- Fixed fucked terrain pictures from CoRGI 16
+
+Culture Consolidation:
+
+- Consolidated South Han pops into North Han 
+- Consolidated Javan pops into Malay
+- Consolidated Moluccan pops into Malay
+- Consolidated Melanesian pops into Polynesian
+- Consolidated Micronesian pops into Polynesian
+- Consolidated Niger-Congo A pops into African Minor
+- Consolidated Bantu pops into African Minor
+- Consolidated South Andean pops into North Andean
+- Consolidated Maltese pops into South Italian
+- Consolidated Texan pops into Dixie
+- Consolidated Berber pops into Maghrebi
+- Consolidated Nilo-Saharan pops into African Minor
+- Consolidated Malagasy pops into African Minor
+- Removed Maltese from UK accepted pops (Culture Consolidation)
+- Made the ACW event chain no longer give Dakota as an accepted pop (Culture Consolidation)
+- Renamed North Han to Han (Culture Consolidation)
+- Renamed North Andean to Andean (Culture Consolidation)
+- Changed Texa's primary culture to Dixie (Culture Consolidation)
+- Changed Java's primary culture to Indonesian (Culture Consolidation)
+- Changed Sulawesi's primary culture to Indonesian (Culture Consolidation)
+- Removed Texan as an accepted culture from USA (Culture Consolidation)
+- Removed Beifaren as an accepted culture from all Chinese nations (Culture Consolidation)
+- Changed all Chinese Treaty Port nations that had Beifaren as primary culture to have Nanfaren (Han) (Culture Consolidation)
+- Removed Mollucan as an accepted culture from Bali (Culture Consolidation)
+- Removed Berber as an accepted culture from Morocco (Culture Consolidation)
+- Changed Zulu primary culture from Bantu to African Minor (Culture Consolidation)
+- Changed Madagascar primary culture from Malagasy to African Minor (Culture Consolidation)
+- Commented out all (That I saw) un-used cultures in cultures.txt (Should help with performance)
+- Removed South Andean as an accepted culture from Colombia (Culture Consolidation)
+- Removed South Andean as an accepted culture from Venezuala (Culture Consolidation)
+- Removed South Andean as an accepted culture from Ecuador (Culture Consolidation)
+- Removed South Andean as an accepted culture from Gran Colombia (Culture Consolidation)
+- Changed Peru's primary culture to Andean from South Andean (Culture Consolidation)
+- Changed Bolivia's primary culture to Andean from South Andean (Culture Consolidation)
+- Changed Peru-Bolivia Confederation's primary culture to Andean from South Andean (Culture Consolidation)
+
+Continent Changes:
+
+- Changed 'Asia' to Siberia
+- Changed Ankara continent from Europe to Asia Minor
+- Changed Giresun continent from Europe to Asia Minor
+- Changed Aleppo continent from Africa to Asia Minor
+- Changed Sidon continent from Central Asia to Asia Minor
+- Changed Suwayda continent from Central Asia to Asia Minor
+- Changed Palmyra continent from Central Asia to Asia Minor
+- Changed Kalat continent from India to Central Asia
+- Changed Bela continent from India to Central Asia
+- Changed Sukkur continent from Central Asia to India
+- Changed Karachi continent from Central Asia to India
+- Changed Manzhouli continent from Central Asia to China
+- Changed Kuching continent from Asia to Indonesia
+- Changed Brunei continent from Asia to Indonesia
+- Changed Bintulu continent from Asia to Indonesia
+- Changed Ipoh continent from Asia to Indo-China
+- Changed Andaman Islands continent from Asia to India
+- Changed Maldives continent from Asia to India
+- Changed Thimpu continent from Asia to India
+- Changed Jumla continent from Asia to India
+- Changed Katamandu continent from Asia to India
+- Changed Jaffna continent from Asia to India
+- Changed Katamandu continent from Asia to India
+- Changed Colombo continent from Asia to India
+- Changed Kandy continent from Asia to India
+- Changed Trincomalee continent from Asia to India
+- Changed Diego Garcia continent from Asia to India
+- Changed Sukhumi continent from Central Asia to Europe
+- Changed Poti continent from Central Asia to Europe
+- Changed Shoyna continent from Asia to Europe
+- Changed Zhambyl continent from Asia to Central Asia
+- Changed Orsk continent from Asia to Europe
+- Changed Guryev continent from Europe to Central Asia
+- Changed Uralsk continent from Europe to Central Asia
+- Changed Changtang continent from Asia to China
+- Changed Ngari continent from Asia to China
+- Changed Shigatse continent from Asia to China
+- Changed Lhodrak continent from Asia to China
+- Changed Lhasa continent from Asia to China
+- Changed Chamdo continent from Asia to China
+- Changed Tawang continent from Asia to China
+- Changed Haiwaii continent from North America to Polynesia
+- Moved Mainz from a inhospitable climate to temperable
+
+CB Changes:
+
+- Completely removed Liberate Country as a CB
+- Core CB reduction has been decreased to 75% of base cost rather than 50%
+
+This means the new CB costs are as follows;
+
+~ Tiny:
+
+Core: 4
+State/Free People: 12
+Colony: 4
+
+~ Small:
+
+Core: 16
+State/Free People: 24
+Colony: 8
+
+~ Medium:
+
+Core: 24
+State/Free People: 32
+Colony: 12
+
+~ Large:
+
+Core: 36
+State/Free People: 48
+Colony: 16
+
+~ Huge:
+
+Core: 48
+State/Free People: 64
+Colony: 20
+
+Color Changes:
+
+- Changed the map color of the Qingdao economic area 
+- Changed the map color of the Weihaiwai economic area
+- Changed the map color of the Port Arthur economic area
+- Changed the map color of the Jiaxing economic area 
+- Changed the map color of the Shanghai economic area
+- Changed Netherland's map color to 255 127 39
+- Changed Denmark's map color to 196 38 10
+- Changed Belgium's map color to 250 200 40
+- Changed Argentina's map color to 117  170  219
+- Changed Peru's map color to  218 18 26
+
+Economic Changes:
+
+- Removed shadow-funding, minimum stockpile is now 300 (Automatic trade does not apply to this)
+
+Miscellaneous:
+
+- Removed the pre-game chat ability
+- Fixed the bugged ACW event chain that wasn't firing from fixes made in CoRGI 16 
+- Fixed Localisation around the ACW events 
+- Made the Host Nation localisation into Black (Will stand out when sending ingame messages and when used as the lobby host)
+- Made all 4/4 generals into 3/3 generals
+- Changed Tripoli primary culture from Polar Bears to Maghrebi (lmao)
+- Added Bedouin as an accepted culture to Tripoli 
+- Removed Zulu's flag that only let you conquer it after 1865
+- Completely removed Free Trade Economic Policy, it is now replaced by Protectionism
+- Kyzyl has been moved from the state of Tomsk to Mongolia, will make eating Mongolia easier for Russia without any enclaves
+- Changed a Prussian army name from IIII Korps to IV Korps
+- Changed localisation colors of the national focus menu a little bit
+- Fixed 2 sea pixels in the province of Kota Waringin (Borneo, Pontianak to be precise)
+- Fixed 2 sea pixels in the province of Puno (Peru, Lake Titicana)
+- Changed some sea and land pixels around Santiago de Cuba
+- Fixed Persia owning Yazd, a debug island
+- Made Denmark no longer get a John Cena from event (oversight that has existed for a long time)
+- Capitalised icendoan in the credits event 
+- Made the canals build day 1 (Not the Suez/Panama/Kiel ones, the Danish and Turkish canals)
+- Converted the Chinese pop nerf into a decision fired by the Ghost Nation. (Treaty Ports still go through event)
+- Converted the Indian pop nerf into the decision the Ghost Nation fires for the Credits event.
+
+National Value Changes:
+
+- Land unit experience from order has been removed
+- Naval unit experience from order has been removed
+- Organisation Regain has been increased to 10% which is an increase of 5%
+- 5% Land Organisation has been added to Order
+- 5% Naval Organisation has been added to Order
+- -5% Supply Consumption has been added to Order
+- Nerfed Order Leadership gain to 75% a nerf of 50%
+- Raised Education Efficiency to 35% a buff of 10% for Education
+- Increased Commerce Tech Bonus to 15% a buff of 10% for Productivity
+- Increased Industry Tech Bonus to 15% a buff of 10% for Productivity 
+- Increased Factory Output to 15% a buff of 5% for Productivity 
+- Increased waiting time to switch national value to 15 years a increase of 10 years
+
+National Focus Changes:
+
+- Changed the Production NF's to give a flat 25% encouragement for each of its items
+- Increased Capitalist chance of building railroads using the railroad national focus by 25%
+
+Naval Changes:
+
+- Increase attrition damage to 2
+- Supply to attrition is now set to 100%
+- Naval funding is capped at 100%
+- Completely new naval system for supply:
+
+~ Early Convoys supply Frigates, Man O Wars and Commerce Raiders and replace Clipper factories. The Early Dockyard factory has inputs of Artillery, Canned Food, Fabric and Steel. 
+
+~ Mid Convoys supply Ironclads, Monitors and Cruisers and replace Steamer factories. The Mid Dockyard factory has inputs of Artillery, Canned Food, Coal and Steel.
+
+~ Late Convoys supply Battleships and Dreadnoughts and have a new factory. The Late Dockyard factory has inputs of Artillery, Canned Food, Fuel and Steel. 
+
+- Consumption is slightly lower than old figures depending on the ship type and all prior Steamer factory output nerfs have been reversed. 
+
+- Cruisers cost has been slightly increased to make it a cost increase from Ironclads and slightly less effective to spam against Battleships
+
+Map Changes:
+
+- Added a higher quality terrain in game for view. (You'll see what I mean when you view it)
+- Added higher quality water map 
+- Increased terrain brightness a little
+
+Port Province Additions:
+
+- Made Mordiyakha a port province (Ural, Russia uncolonised)
+
+Tech Changes:
+
+- Raised the base chance for all inventions in the Social Science tree that give education efficiency to 8%
+
+War Exhaustion:
+
+- Added a Emigration threshold for War Exhaustion 0.125% for every 10% of War Exhaustion (For contrast the base chance of emigration is 1%)
+- Adjusted the tax efficiency malus to -0.002 as it was not working before. (-10% Tax Efficiency at 100 WE)
+- Added Tariff Efficiency malus at -0.001 (-10% Tariff Efficiency at 100 WE)
+- Removed RGO throughput maluses 
+- Removed factory throughput maluses
+
+Arabia:
+
+- You now get cores on Iraq and the rest of Syria upon formation
+- Tripoli, Tunis, Algeria and Morocco cores no longer just disappear when forming 
+
+Austria:
+
+- Removed Core on Kotor (Montenegro)
+- Removed Cores on Cernauti and Suceava (Austrian Moldavia)
+
+Belgium:
+
+- Removed LR boost if a player event
+
+Bolivia:
+
+- Split 9k off the army of Ejército de Bolivia and 3k off the army of Ejército de Bolivia 2nd and moved this new army to Potosi to avoid attrition
+
+Brazil:
+
+- Moved 1st Army from Sao Luis to Teresina to avoid attrition
+
+Commonwealth:
+
+- Replaced all Commonwealth cores in the South African region with South African cores
+- Merged Nunavut into North West Territories
+- Made 'Enact the Dominions Land Act' decision require ownership of Canada
+- Merged New Zealand into one state
+- Added a transport factory in Quebec
+- Added 2,000 craftsmen in Quebec
+- Added a straight from Australia to Norfolk Island 
+- Added a straight from Norfolk Island to New Zealand
+- Added a straight from Austrlia mainland to Tasmania
+
+Denmark:
+
+- Removed Integrated the Duchies decision
+
+Egypt:
+
+- Moved Egyptian fleet to Alexandria
+- Re-did Egyptian oob to be three 4-5-1 stacks and centred the armies location around Cairo
+- Gave Arty tech 
+- Gave Arty reform
+
+France:
+
+- Added a level 2 transport factory in Normandy
+
+Italy:
+
+- Added 3,000 craftsmen to Two Sicilies
+- Added a transport factory in Lazio-Campania
+- Changed Gaeta RGO from Fish -> Lumber
+- Added 3,500 craftsmen to Sardinia-Piedmont
+- Added a Early Convoy (Clipper) factory in Piemonte
+- Added a transport factory in Piemonte
+- Added a core on Malta in the Italia Irredenta decision
+
+Germany:
+
+- Added a transport factory in Hinterpommern
+- Removed Day 1 fort in Danzig
+- Removed Day 1 fort in Tuchel
+- Removed Day 1 fort in Elbing
+- Removed Day 1 fort in Posen
+
+Japan:
+
+- Raised literacy by 5%, 25% -> 30%
+
+Netherlands:
+
+- Added a level 2 transport factory in Friesland
+- Added a level 2 artillery factory in Holland
+
+Mexico:
+ 
+- Matamoras and Ciudad Victoria given to Coahuila y Neuvo Leon
+- Chihuahua state incorporated into Sonora 
+- Added Mexican core to Houston
+
+Russia:
+
+- Removed Cores on Budjak
+- Removed Cores on Azerbaijan
+- Removed Cores on Armenia
+- Removed Cores on Georgia
+- Added a transport factory in Cherson
+- Merged Kamchatka into Yakutsk
+- Changed color to 0 70 10 
+
+Sweden:
+
+- Removed Baltic Empire decision
+- Made Form Scandinavia decision not require prestige
+- Added a transport factory in Svealand
+
+Spain:
+
+- Added a transport factory in Galicia
+- Added 3,000 craftsmen in Galicia
+
+Portugal:
+
+- Added a transport factory in Douro
+
+Persia:
+
+- Buffed LR to 37, in effect this is basically re-instating 37lr Persia that has been bricked ever since IGoR 9
+- Fixed Persia having a red brigade by moving around solider pops from Shiraz to Tabriz
+- Removed event that boosted LR to 37 (was bricked anyway)
+
+Ottomans:
+
+- Removed the Tripoli war, Tripoli now starts annexed under Turkey
+- Moved the stack in Kaysari to Mersin to avoid attrition
+- Added a transport factory in Thrace
+- Added a Early Convoy (Clipper) factory in Thrace
+- Added 7,500 craftsmen in Thrace
+- Nerfed bureaucrats so admin % is now 65.7% a nerf of 27%
+- Added Caucasian Minor as an accepted pop
+- Removed Chios as a core
+- Removed Myteline as a core
+- Removed Dodecanese as a core
+- Re-added Kurdish as an accepted pop
+
+South America:
+
+- All 37lr provinces changed to 36lr 
+- All 35lr provinces changed to 34lr
+- Partitioned the state of Pastaza between Ecuador and Ucayali y Cusco 
+
+United Kingdom:
+
+- Added a transport factory in South West England
+- Added a level 2 transport factory in Midlands
+- Removed a Early Convoy (Clipper) factory in North West England, replaced with a transport factory	
+- Added two additional clippers to its fleet (No more 18 transport annoyance)
+- Merged Connacht with Leinster to remake the Leinster-Connacht state
+- The UK Indian puppet will now inherit the previous tier of the UK's mil tech upon the research of the next.
+
+USA:
+
+- Added a transport factory in Massachusetts
+- Added 2,000 craftsmen in New York
+- Added 1,000 craftsmen in Massachusetts
+- Combined USA navies into one fleet in Baltimore
+- Gave seven clipper transports to make them have a 10 transport fleet
+
+Credits:
+
+- SteelRyan for major assistance in making input/output calculations for the new naval factories
+- BestPancakeEver for the removal of Commonwealth South African cores suggestion
+- BestPancakeEver for the Zulu conquerable flag removal suggestion
+- BestPancakeEver for the Commonwealth needing to own Canada for the Enact the Dominions Land Act decision
+- BestPancakeEver for the Free Trade removal suggestion 
+- BestPancakeEver for Mexico redraw suggestions
+- BestPancakeEver for the Pastaza state partition suggestion
+- BestPancakeEver for the suggestion to move the Turkish stack to avoid attrition
+- BestPancakeEver for some of the National Value suggestions
+- BestPancakeEver for Turkey changes
+- Not A Spambot for the India tech system inheritance from IGoR Infamous
+- Not A Spambot for the shadowfunding removal
+- Rennes for the Terrain visual changes from NLR 
+- Rennes for the removal of the pre-game chat ability
+- The developers of AMP for the map overlay file
+- RenatoDS for the colormap_water from the RDS Mapping Project
+- Proxy for the suggestion of boosting invention chances in the Social Science tree
+- TGC devs for the two cogs decision pictures
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 V16.3 Checksum: (TQXU)
 
 Miscellaneous:
