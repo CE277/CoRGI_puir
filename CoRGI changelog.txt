@@ -1,3 +1,20 @@
+V17.1: Checksum: (QORW)
+
+Bug-Fixes:
+
+- Removed Hainan getting the treaty port modifier
+- Removed Taiwan getting the treaty port modifier
+
+Miscellaneous:
+
+- Added localisation for the description of the Late Dockyard factory
+- Added localisation for the description of the Transport Dockyard factory
+- Added localisation in the description of the Early Dockyard factory saying what ships it supports in yellow
+- Added localisation in the description of the Medium Dockyard factory saying what ships it supports in yellow
+- Added localisation in the description of the Late Dockyard factory saying what ships it supports in yellow
+- Added localisation in the description of the Transport Dockyard factory saying what ships it supports in yellow
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 V17.0: Checksum: (BNST)
 
 CoRGI Mapmod:
