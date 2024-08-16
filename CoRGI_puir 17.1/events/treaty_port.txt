@@ -15,8 +15,6 @@ province_event = {
 			province_id = 1608
 			province_id = 3249
 			province_id = 1481
-			province_id = 1499
-			province_id = 2562
 		}
 		NOT = {
 			has_province_modifier = treaty_port_buff
