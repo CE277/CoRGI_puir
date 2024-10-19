@@ -1,0 +1,618 @@
+#Schweiz Region (1388000)
+#Zurich (560000/140000 POPS)
+603 = {
+	aristocrats = {
+		culture = south_german
+		religion = placeholder
+		size = 450
+	}
+
+	clergymen = {
+		culture = south_german
+		religion = placeholder
+		size = 1300
+	}
+
+	capitalists = {
+		culture = south_german
+		religion = placeholder
+		size = 100
+	}
+
+	clerks = {
+		culture = south_german
+		religion = placeholder
+		size = 400
+	}
+
+	craftsmen = {
+		culture = south_german
+		religion = placeholder
+		size = 9800
+	}
+
+	artisans = {
+		culture = south_german
+		religion = placeholder
+		size = 3300
+	}
+
+	farmers = {
+		culture = south_german
+		religion = placeholder
+		size = 73650
+	}
+
+	aristocrats = {
+		culture = south_german
+		religion = placeholder
+		size = 250
+	}
+
+	clergymen = {
+		culture = south_german
+		religion = placeholder
+		size = 500
+	}
+
+	clerks = {
+		culture = south_german
+		religion = placeholder
+		size = 200
+	}
+
+	craftsmen = {
+		culture = south_german
+		religion = placeholder
+		size = 5000
+	}
+
+	artisans = {
+		culture = south_german
+		religion = placeholder
+		size = 1900
+	}
+
+	farmers = {
+		culture = south_german
+		religion = placeholder
+		size = 41150
+	}
+	soldiers = {
+		culture = south_german
+		religion = placeholder
+		size = 2500
+	}
+}
+#Basel (272000/68000 POPS)
+604 = {
+	aristocrats = {
+		culture = south_german
+		religion = placeholder
+		size = 150
+	}
+
+	clergymen = {
+		culture = south_german
+		religion = placeholder
+		size = 275
+	}
+
+	clerks = {
+		culture = south_german
+		religion = placeholder
+		size = 135
+	}
+
+	craftsmen = {
+		culture = south_german
+		religion = placeholder
+		size = 3500
+	}
+
+	artisans = {
+		culture = south_german
+		religion = placeholder
+		size = 350
+	}
+
+	farmers = {
+		culture = south_german
+		religion = placeholder
+		size = 10190
+	}
+
+	aristocrats = {
+		culture = south_german
+		religion = placeholder
+		size = 150
+	}
+
+	clerks = {
+		culture = south_german
+		religion = placeholder
+		size = 130
+	}
+
+	craftsmen = {
+		culture = south_german
+		religion = placeholder
+		size = 900
+	}
+
+	soldiers = {
+		culture = south_german
+		religion = placeholder
+		size = 2200
+	}
+
+	farmers = {
+		culture = south_german
+		religion = placeholder
+		size = 20800
+	}
+}
+#Bern (352000/88000 POPS)
+605 = {
+	aristocrats = {
+		culture = south_german
+		religion = placeholder
+		size = 450
+	}
+
+	officers = {
+		culture = south_german
+		religion = placeholder
+		size = 350
+	}
+
+	bureaucrats = {
+		culture = south_german
+		religion = placeholder
+		size = 800
+	}
+
+	clergymen = {
+		culture = south_german
+		religion = placeholder
+		size = 625
+	}
+
+	clerks = {
+		culture = south_german
+		religion = placeholder
+		size = 275
+	}
+
+	craftsmen = {
+		culture = south_german
+		religion = placeholder
+		size = 7000
+	}
+
+	artisans = {
+		culture = south_german
+		religion = placeholder
+		size = 3500
+	}
+
+	soldiers = {
+		culture = south_german
+		religion = placeholder
+		size = 1100
+	}
+
+	farmers = {
+		culture = south_german
+		religion = placeholder
+		size = 66825
+	}
+
+	farmers = {
+		culture = french
+		religion = placeholder
+		size = 5225
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = placeholder
+		size = 2250
+	}
+}
+#Lucerne (204000/51000 POPS)
+606 = {
+	aristocrats = {
+		culture = south_german
+		religion = placeholder
+		size = 175
+	}
+
+	clergymen = {
+		culture = south_german
+		religion = placeholder
+		size = 450
+	}
+
+	artisans = {
+		culture = south_german
+		religion = placeholder
+		size = 2500
+	}
+
+	clerks = {
+		culture = south_german
+		religion = placeholder
+		size = 100
+	}
+	
+	craftsmen = {
+		culture = south_german
+		religion = placeholder
+		size = 2900
+	}
+	
+	soldiers = {
+		culture = south_german
+		religion = placeholder
+		size = 1100
+	}
+
+	farmers = {
+		culture = south_german
+		religion = placeholder
+		size = 42725
+	}
+
+}
+#Vaud & Valais Region (444000)
+#Geneva (316000/79000 POPS)
+607 = {
+	aristocrats = {
+		culture = french
+		religion = placeholder
+		size = 200
+	}
+
+	bureaucrats = {
+		culture = french
+		religion = placeholder
+		size = 120
+	}
+
+	officers = {
+		culture = south_german
+		religion = placeholder
+		size = 60
+	}
+
+	clergymen = {
+		culture = south_german
+		religion = placeholder
+		size = 300
+	}
+
+	artisans = {
+		culture = french
+		religion = placeholder
+		size = 3000
+	}
+
+	clerks = {
+		culture = french
+		religion = placeholder
+		size = 100
+	}
+	
+	craftsmen = {
+		culture = french
+		religion = placeholder
+		size = 2500
+	}
+	
+	soldiers = {
+		culture = french
+		religion = placeholder
+		size = 3250
+	}
+
+	farmers = {
+		culture = french
+		religion = placeholder
+		size = 35720
+	}
+
+	aristocrats = {
+		culture = french
+		religion = placeholder
+		size = 300
+	}
+
+	bureaucrats = {
+		culture = french
+		religion = placeholder
+		size = 80
+	}
+
+	officers = {
+		culture = french
+		religion = placeholder
+		size = 50
+	}
+
+	clergymen = {
+		culture = french
+		religion = placeholder
+		size = 350
+	}
+
+	artisans = {
+		culture = south_german
+		religion = placeholder
+		size = 3000
+	}
+
+	clerks = {
+		culture = french
+		religion = placeholder
+		size = 100
+	}
+	
+	craftsmen = {
+		culture = french
+		religion = placeholder
+		size = 1500
+	}
+
+	farmers = {
+		culture = french
+		religion = placeholder
+		size = 19630
+	}
+
+	farmers = {
+		culture = south_german
+		religion = placeholder
+		size = 10000
+	}
+}
+#Neuchatel (56000/14000 POPS)
+608 = {
+	aristocrats = {
+		culture = french
+		religion = placeholder
+		size = 100
+	}
+
+	clergymen = {
+		culture = french
+		religion = placeholder
+		size = 125
+	}
+
+	artisans = {
+		culture = south_german
+		religion = placeholder
+		size = 3000
+	}
+
+	soldiers = {
+		culture = french
+		religion = placeholder
+		size = 1150
+	}
+
+	farmers = {
+		culture = french
+		religion = placeholder
+		size = 10625
+	}
+}
+#Sitten (72000/18000) POPS
+609 = {
+	aristocrats = {
+		culture = french
+		religion = placeholder
+		size = 150
+	}
+
+	clergymen = {
+		culture = french
+		religion = placeholder
+		size = 175
+	}
+
+	artisans = {
+		culture = french
+		religion = placeholder
+		size = 1100
+	}
+
+	soldiers = {
+		culture = french
+		religion = placeholder
+		size = 1100
+	}
+
+	farmers = {
+		culture = french
+		religion = placeholder
+		size = 10000
+	}
+
+	farmers = {
+		culture = south_german
+		religion = placeholder
+		size = 5175
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = placeholder
+		size = 500
+	}
+
+}
+#Ticino & Grisons Region (188000)
+#Lugano (108000/27000 POPS)
+2568 = {
+	aristocrats = {
+		culture = north_italian
+		religion = placeholder
+		size = 250
+	}
+
+	bureaucrats = {
+		culture = north_italian
+		religion = placeholder
+		size = 100
+	}
+
+	officers = {
+		culture = north_italian
+		religion = placeholder
+		size = 50
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = placeholder
+		size = 275
+	}
+
+	artisans = {
+		culture = south_german
+		religion = placeholder
+		size = 1250
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = placeholder
+		size = 1100
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = placeholder
+		size = 24075
+	}
+}
+#Chur (80000/20000 POPS)
+611 = {
+	aristocrats = {
+		culture = north_italian
+		religion = placeholder
+		size = 100
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = placeholder
+		size = 275
+	}
+
+	artisans = {
+		culture = south_german
+		religion = placeholder
+		size = 650
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = placeholder
+		size = 1175
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = placeholder
+		size = 11275
+	}
+
+	aristocrats = {
+		culture = south_german
+		religion = placeholder
+		size = 50
+	}
+
+	clergymen = {
+		culture = south_german
+		religion = placeholder
+		size = 50
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = placeholder
+		size = 350
+	}
+
+	farmers = {
+		culture = south_german
+		religion = placeholder
+		size = 6475
+	}
+
+}
+
+#Jura (POPS Taken from Basel)
+#(65800/16450)
+
+3301 = {
+	aristocrats = {
+		culture = french
+		religion = placeholder
+		size = 25
+	}
+	clergymen = {
+		culture = french
+		religion = placeholder
+		size = 165
+	}
+	craftsmen = {
+		culture = french
+		religion = placeholder
+		size = 160
+	}
+	artisans = {
+		culture = french
+		religion = placeholder
+		size = 3002
+	}
+	farmers = {
+		culture = french
+		religion = placeholder
+		size = 4800
+	}
+	aristocrats = {
+		culture = french
+		religion = placeholder
+		size = 75
+	}
+	clergymen = {
+		culture = french
+		religion = placeholder
+		size = 100
+	}
+	craftsmen = {
+		culture = french
+		religion = placeholder
+		size = 440
+	}
+	artisans = {
+		culture = french
+		religion = placeholder
+		size = 800
+	}
+	farmers = {
+		culture = french
+		religion = placeholder
+		size = 19800
+	}
+	soldiers = {
+		culture = french
+		religion = placeholder
+		size = 1175
+	}
+}

@@ -1,0 +1,2676 @@
+#Sonora Region (140000)
+#ruled by Mexico 1836
+#Hermosillo (76000/19000 POPS)
+2137 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 238
+    }
+
+    bureaucrats = {
+        culture = mexican
+        religion = placeholder
+        size = 34
+    }
+
+    officers = {
+        culture = mexican
+        religion = placeholder
+        size = 24
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 99
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 547
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 330
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 9874
+    }
+
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 83
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 49
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 265
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 4858
+    }
+}
+#Nogales (12000/3000 POPS)
+2140 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 24
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 20
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 49
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 46
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 890
+    }
+
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 16
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 32
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 66
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 1193
+    }
+}
+#Guaymas (52000/13000 POPS)
+2141 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 248
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 99
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 497
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 234
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 9004
+    }
+
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 32
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 49
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 99
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 1790
+    }
+}
+#Baja California Region (20000)
+#ruled by Mexico 1836
+#Loreto (4000/1000 POPS)
+2138 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 24
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 20
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 49
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 18
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 890
+    }
+}
+#Rosarito (16000/4000 POPS)
+2139 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 69
+    }
+
+    bureaucrats = {
+        culture = mexican
+        religion = placeholder
+        size = 2
+    }
+
+    officers = {
+        culture = mexican
+        religion = placeholder
+        size = 2
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 49
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 99
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 70
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 1741
+    }
+
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 16
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 32
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 66
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 1193
+    }
+}
+#Chihuahua Region (136000)
+#ruled by Mexico 1836
+#Chihuahua (100000/25000 POPS)
+2142 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 437
+    }
+
+    bureaucrats = {
+        culture = mexican
+        religion = placeholder
+        size = 34
+    }
+
+    officers = {
+        culture = mexican
+        religion = placeholder
+        size = 30
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 223
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 1094
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 477
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 19844
+    }
+
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 32
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 49
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 99
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 1790
+    }
+}
+#Paso del Norte (12000/3000 POPS)
+2143 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 74
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 49
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 149
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 50
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 2686
+    }
+}
+#Delicias (8000/2000 POPS)
+2144 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 74
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 49
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 99
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 42
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 1741
+    }
+}
+#Parral (16000/4000 POPS)
+2145 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 24
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 20
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 49
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 53
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 890
+    }
+
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 32
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 49
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 99
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 1790
+    }
+}
+#Coahuila Region (160000)
+#ruled by Mexico 1836
+#Morelos (12000/3000 POPS)
+2147 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 74
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 49
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 149
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 52
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 2686
+    }
+}
+#Saltillo (44000/11000 POPS)
+2151 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 248
+    }
+
+    bureaucrats = {
+        culture = mexican
+        religion = placeholder
+        size = 49
+    }
+
+    officers = {
+        culture = mexican
+        religion = placeholder
+        size = 34
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 74
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 397
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 186
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 7078
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 49
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 99
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 1823
+    }
+}
+#Monclova (48000/12000 POPS)
+2152 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 273
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 123
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 596
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 242
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 10819
+    }
+}
+#Torreon (56000/14000 POPS)
+2155 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 298
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 99
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 547
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 267
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 9874
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 49
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 99
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 1823
+    }
+}
+#Nuevo Leon-Tamaulipas Region (172000)
+#ruled by Mexico 1836
+#Monterrey (104000/26000 POPS)
+2146 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 547
+    }
+
+    bureaucrats = {
+        culture = mexican
+        religion = placeholder
+        size = 49
+    }
+
+    officers = {
+        culture = mexican
+        religion = placeholder
+        size = 49
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 198
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 945
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 480
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 16914
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 49
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 231
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 4311
+    }
+}
+#Reynosa (16000/4000 POPS)
+2148 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 99
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 74
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 198
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 87
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 3556
+    }
+}
+#Matamoros (28000/7000 POPS)
+2149 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 173
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 74
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 348
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 142
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 6292
+    }
+}
+#Ciudad Victoria (24000/6000 POPS)
+2150 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 149
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 49
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 298
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 107
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 5422
+    }
+}
+#Durango-Sinaloa Region (252000)
+#ruled by Mexico 1836
+#Durango (64000/16000 POPS)
+2153 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 348
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 149
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 696
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 314
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 12585
+    }
+
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 16
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 32
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 66
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 1193
+    }
+}
+#Santa Maria del Oro (44000/11000 POPS)
+2154 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 223
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 74
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 447
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 217
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 8208
+    }
+
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 16
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 32
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 66
+  }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 1193
+    }
+}
+#Mazatlan (116000/29000 POPS)
+2156 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 646
+    }
+
+    bureaucrats = {
+        culture = mexican
+        religion = placeholder
+        size = 74
+    }
+
+    officers = {
+        culture = mexican
+        religion = placeholder
+        size = 49
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 273
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 1442
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 586
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 26067
+    }
+}
+#Culiacan (28000/7000 POPS)
+2157 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 173
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 74
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 348
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 142
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 6292
+    }
+}
+#Zacatecas-Aguascalientes Region (568000)
+#ruled by Mexico 1836
+#Zacatecas (340000/85000 POPS)
+2158 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 1715
+    }
+
+    bureaucrats = {
+        culture = mexican
+        religion = placeholder
+        size = 223
+    }
+
+    officers = {
+        culture = mexican
+        religion = placeholder
+        size = 173
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 422
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 3830
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 1720
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 34996
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 198
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 2139
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 39996
+    }
+}
+#Aguascalientes (152000/38000 POPS)
+2160 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 845
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 372
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 1516
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 778
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 34673
+    }
+}
+#Tepic (76000/19000 POPS)
+2161 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 422
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 149
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 746
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 369
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 15097
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 32
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 132
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 2454
+    }
+}
+#Potosi-Guanajuato Region (1356000)
+#ruled by Mexico 1836
+#San Luis Potosi (324000/81000 POPS)
+2159 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 1616
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 472
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 2387
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 1708
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 48254
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 173
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 1641
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 30370
+    }
+}
+#Guanajuato (672000/168000 POPS)
+2167 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 3382
+    }
+
+    bureaucrats = {
+        culture = mexican
+        religion = placeholder
+        size = 571
+    }
+
+    officers = {
+        culture = mexican
+        religion = placeholder
+        size = 3357
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 621
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 3134
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 3262
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 54473
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 497
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 5223
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 97803
+    }
+
+    craftsmen = {
+        culture = mexican
+        religion = placeholder
+        size = 10050
+    }
+}
+#Queretaro (360000/90000 POPS)
+2173 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 1840
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 248
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 1193
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 3262
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 23878
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 248
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 2785
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 58278
+    }
+}
+#Veracruz-Tabasco Region (328000)
+#ruled by Mexico 1836
+#Veracruz (140000/70000 POPS)
+2162 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 1417
+    }
+
+    bureaucrats = {
+        culture = mexican
+        religion = placeholder
+        size = 123
+    }
+
+    officers = {
+        culture = mexican
+        religion = placeholder
+        size = 99
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 497
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 198
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 721
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 1591
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 99
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 1044
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 19923
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 49
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 497
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 9302
+    }
+}
+#Tampico (80000/20000 POPS)
+2163 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 422
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 149
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 99
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 421
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 1293
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 49
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 895
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 16764
+    }
+}
+#Minatitlan (48000/12000 POPS)
+2164 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 248
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 74
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 49
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 262
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 596
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 49
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 547
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 10222
+    }
+}
+#Villahermosa (60000/15000 POPS)
+2165 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 322
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 99
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 149
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 2362
+    }
+
+    clergymen = {
+        culture = mayan
+        religion = placeholder
+        size = 100
+    }
+
+    artisans = {
+        culture = mayan
+        religion = placeholder
+        size = 600
+    }
+
+    craftsmen = {
+        culture = mayan
+        religion = placeholder
+        size = 100
+    }
+
+    soldiers = {
+        culture = mayan
+        religion = placeholder
+        size = 203
+    }
+
+    farmers = {
+        culture = mayan
+        religion = placeholder
+        size = 11175
+    }
+}
+#Jalisco Region (448000)
+#ruled by Mexico 1836
+#Guadalajara (300000/75000 POPS)
+2166 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 1542
+    }
+
+    bureaucrats = {
+        culture = mexican
+        religion = placeholder
+        size = 198
+    }
+
+    officers = {
+        culture = mexican
+        religion = placeholder
+        size = 123
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 646
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 9949
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 1940
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 1516
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 48627
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 49
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 547
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 10222
+    }
+}
+#Puerto Vallarta (148000/37000 POPS)
+2168 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 746
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 248
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 1193
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 764
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 21441
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 49
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 646
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 12063
+    }
+}
+#Michoacan Region (568000)
+#ruled by Mexico 1836
+#Colima (108000/27000 POPS)
+2169 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 571
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 273
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 1343
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 540
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 24400
+    }
+}
+#Morelia (348000/87000 POPS)
+2170 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 1741
+    }
+
+    bureaucrats = {
+        culture = mexican
+        religion = placeholder
+        size = 223
+    }
+
+    officers = {
+        culture = mexican
+        religion = placeholder
+        size = 149
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 497
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 2537
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 1765
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 45070
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 173
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 1790
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 33479
+    }
+}
+#Los Alaniles (112000/28000 POPS)
+2171 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 571
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 198
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 1094
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 577
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 17933
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 74
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 397
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 7387
+    }
+}
+#Mexico Region (720000)
+#ruled by Mexico 1836
+#Mexico City (508000/127000 POPS)
+2172 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 1641
+    }
+
+    bureaucrats = {
+        culture = mexican
+        religion = placeholder
+        size = 348
+    }
+
+    officers = {
+        culture = mexican
+        religion = placeholder
+        size = 223
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 770
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 9949
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 9949
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 994
+    }
+
+    craftsmen = {
+        culture = mexican
+        religion = placeholder
+        size = 7959
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 45021
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 248
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 9949
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 8954
+    }
+
+    craftsmen = {
+        culture = mexican
+        religion = placeholder
+        size = 248
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 2563
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 28853
+    }
+}
+#Toluca (212000/53000 POPS)
+2174 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 1044
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 198
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 945
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 7841
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 9750
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 149
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 1691
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 31639
+    }
+}
+#Puebla-Hidalgo Region (692000)
+#ruled by Mexico 1836
+#Tulancingo (188000/47000 POPS)
+2175 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 945
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 198
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 945
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 965
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 16615
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 123
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 1392
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 26042
+    }
+}
+#Puebla (504000/126000 POPS)
+2176 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 2537
+    }
+
+    bureaucrats = {
+        culture = mexican
+        religion = placeholder
+        size = 298
+    }
+
+    officers = {
+        culture = mexican
+        religion = placeholder
+        size = 198
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 895
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 8456
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 8974
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 33380
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 372
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 6466
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 65044
+    }
+}
+#Oaxaca Region (452000)
+#ruled by Mexico 1836
+#Oaxaca (352000 88000 POPS)
+2177 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 1641
+    }
+
+    bureaucrats = {
+        culture = mexican
+        religion = placeholder
+        size = 123
+    }
+
+    officers = {
+        culture = mexican
+        religion = placeholder
+        size = 123
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 472
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 1741
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 8640
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 15794
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 348
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 4476
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 65119
+    }
+}
+#Collataro (100000/25000 POPS)
+2178 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 521
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 149
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 248
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 496
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 4034
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 99
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 1094
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 18605
+    }
+}
+#Guerrero Region (246000)
+#ruled by Mexico 1836
+#Acapulco (156000/44000 POPS)
+2179 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 895
+    }
+
+    bureaucrats = {
+        culture = mexican
+        religion = placeholder
+        size = 74
+    }
+
+    officers = {
+        culture = mexican
+        religion = placeholder
+        size = 74
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 322
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 1144
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 938
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 23132
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 99
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 1044
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 19525
+    }
+}
+#Chilpancingo (80000/20000 POPS)
+2180 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 447
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 149
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 447
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = placeholder
+        size = 418
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 7810
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 49
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 547
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 10222
+    }
+}
+#Chiapas Region (124000)
+#ruled by Mexico 1836
+#Tuxtla (84000/21000 POPS)
+2181 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 298
+    }
+
+    bureaucrats = {
+        culture = mexican
+        religion = placeholder
+        size = 24
+    }
+
+    officers = {
+        culture = mexican
+        religion = placeholder
+        size = 24
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 149
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 198
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 3134
+    }
+
+    aristocrats = {
+        culture = mayan
+        religion = placeholder
+        size = 150
+    }
+
+    bureaucrats = {
+        culture = mayan
+        religion = placeholder
+        size = 75
+    }
+
+    officers = {
+        culture = mayan
+        religion = placeholder
+        size = 75
+    }
+
+    clergymen = {
+        culture = mayan
+        religion = placeholder
+        size = 100
+    }
+
+    artisans = {
+        culture = mayan
+        religion = placeholder
+        size = 850
+    }
+
+    craftsmen = {
+        culture = mayan
+        religion = placeholder
+        size = 100
+    }
+
+    soldiers = {
+        culture = mayan
+        religion = placeholder
+        size = 212
+    }
+
+    farmers = {
+        culture = mayan
+        religion = placeholder
+        size = 15625
+    }
+}
+#Tapachula (40000/10000 POPS)
+2182 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 223
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 99
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 198
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 3457
+    }
+
+    clergymen = {
+        culture = mayan
+        religion = placeholder
+        size = 100
+    }
+
+    artisans = {
+        culture = mayan
+        religion = placeholder
+        size = 300
+    }
+
+    craftsmen = {
+        culture = mayan
+        religion = placeholder
+        size = 100
+    }
+
+    soldiers = {
+        culture = mayan
+        religion = placeholder
+        size = 139
+    }
+
+    farmers = {
+        culture = mayan
+        religion = placeholder
+        size = 5500
+    }
+}
+#Yucatan Region (440000)
+#ruled by Mexico 1836
+#Merida (240000/60000 POPS)
+2183 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 1268
+    }
+
+    bureaucrats = {
+        culture = mexican
+        religion = placeholder
+        size = 99
+    }
+
+    officers = {
+        culture = mexican
+        religion = placeholder
+        size = 149
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 472
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 1044
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 17361
+    }
+
+    aristocrats = {
+        culture = mayan
+        religion = placeholder
+        size = 175
+    }
+
+    bureaucrats = {
+        culture = mayan
+        religion = placeholder
+        size = 100
+    }
+
+    officers = {
+        culture = mayan
+        religion = placeholder
+        size = 150
+    }
+
+    clergymen = {
+        culture = mayan
+        religion = placeholder
+        size = 125
+    }
+
+    artisans = {
+        culture = mayan
+        religion = placeholder
+        size = 1950
+    }
+
+    craftsmen = {
+        culture = mayan
+        religion = placeholder
+        size = 100
+    }
+
+    soldiers = {
+        culture = mayan
+        religion = placeholder
+        size = 1103
+    }
+
+    farmers = {
+        culture = mayan
+        religion = placeholder
+        size = 36000
+    }
+}
+#Camnpeche (108000/27000 POPS)
+2184 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 547
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 173
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 397
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 6840
+    }
+
+    aristocrats = {
+        culture = mayan
+        religion = placeholder
+        size = 175
+    }
+
+    officers = {
+        culture = mayan
+        religion = placeholder
+        size = 25
+    }
+
+    clergymen = {
+        culture = mayan
+        religion = placeholder
+        size = 100
+    }
+
+    artisans = {
+        culture = mayan
+        religion = placeholder
+        size = 900
+    }
+
+    craftsmen = {
+        culture = mayan
+        religion = placeholder
+        size = 100
+    }
+
+    soldiers = {
+        culture = mayan
+        religion = placeholder
+        size = 380
+    }
+
+    farmers = {
+        culture = mayan
+        religion = placeholder
+        size = 17400
+    }
+}
+#Bacalar (92000/23000 POPS)
+2185 = {
+    aristocrats = {
+        culture = mexican
+        religion = placeholder
+        size = 298
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = placeholder
+        size = 149
+    }
+
+    artisans = {
+        culture = mexican
+        religion = placeholder
+        size = 59
+    }
+
+    farmers = {
+        culture = mexican
+        religion = placeholder
+        size = 1168
+    }
+
+    aristocrats = {
+        culture = mayan
+        religion = placeholder
+        size = 150
+    }
+
+    officers = {
+        culture = mayan
+        religion = placeholder
+        size = 25
+    }
+
+    clergymen = {
+        culture = mayan
+        religion = placeholder
+        size = 50
+    }
+
+    artisans = {
+        culture = mayan
+        religion = placeholder
+        size = 1100
+    }
+
+    craftsmen = {
+        culture = mayan
+        religion = placeholder
+        size = 100
+    }
+
+    soldiers = {
+        culture = mayan
+        religion = placeholder
+        size = 241
+    }
+
+    farmers = {
+        culture = mayan
+        religion = placeholder
+        size = 20525
+    }
+}

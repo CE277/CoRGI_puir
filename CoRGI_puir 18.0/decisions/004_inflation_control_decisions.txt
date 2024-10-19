@@ -1,0 +1,2240 @@
+#Inflation_WB_level_setting
+political_decisions = {
+    killswitch_inflation_system = {
+        picture = unite_the_principalities
+
+        potential = {
+            OR = {
+                tag = LCT
+                tag = GHO
+            }
+            ai = no
+        }
+
+        allow = {
+            ai = no
+        }
+
+        effect = {
+            GHO = { add_country_flag = killswitch_inflation_system }
+        }
+    }
+    Emergency_stop = {
+        picture = unite_the_principalities
+
+        potential = {
+            tag = GHO
+            has_country_flag = WB_1 
+        }
+
+        allow = {
+            tag = GHO
+            has_country_flag = WB_1       
+            OR = {
+                AND = {
+                    has_country_flag = killswitch_inflation_system
+                }               
+                AND = {
+                    year = 1836
+                    NOT = { year = 1860 }
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 55.3 } } }
+                }
+                AND = {
+                    year = 1860
+                    NOT = { year = 1880 }
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 60.0 } } }
+                }
+                AND = {
+                    year = 1880
+                    NOT = { year = 1890 }
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 69.5 } } }
+                }
+                AND = {
+                    year = 1890
+                    NOT = { year = 1900 }
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 79.0 } } }
+                }
+                AND = {
+                    year = 1900
+                    NOT = { year = 1910 }
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 88.6 } } }
+                }
+                AND = {
+                    year = 1910
+                    NOT = { year = 1920 }
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 98.2 } } }
+                }
+                AND = {
+                    year = 1920
+                    NOT = { year = 1930 }
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 107.8 } } }
+                }
+                AND = {
+                    year = 1930
+                    NOT = { year = 1940 }
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 117.1 } } }
+                }
+            }
+        }
+
+        effect = {
+            GHO = {
+                clr_country_flag = WB_1
+                clr_country_flag = WB_2
+                clr_country_flag = WB_3
+                clr_country_flag = WB_4
+                clr_country_flag = WB_5
+                clr_country_flag = WB_6
+                clr_country_flag = ED_1
+                clr_country_flag = ED_2
+                clr_country_flag = ED_3
+                any_country = { remove_country_modifier = ED_1 }
+                any_country = { remove_country_modifier = ED_2 }
+                any_country = { remove_country_modifier = ED_3 }
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Set_Flatline = {
+        picture = unite_the_principalities
+
+        potential = {
+            tag = GHO
+            Month = 11
+            has_country_modifier = inflation_late_check_done
+        }
+
+        allow = {
+            Month = 11
+            has_country_modifier = inflation_late_check_done
+            NOT = { has_country_modifier = flatline }
+            OR = { 
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 205 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 200 } }
+                    LCT = {  NOT = { check_variable  = { which = inflation_late value = 200 } } }              
+                    LCT = { check_variable  = { which = inflation_late value = 195 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 200 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 195 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 195 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 190 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 195 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 190 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 190 } } }              
+                    LCT = { check_variable  = { which = inflation_late value = 185 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 190 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 185 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 185 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 180 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 185 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 180 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 180 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 175 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 180 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 175 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 175 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 170 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 175 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 170 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 170 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 165 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 170 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 165 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 165 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 160 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 165 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 160 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 160 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 155 } }
+                }
+
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 160 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 155 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 155 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 150 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 155 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 150 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 150 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 145 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 150 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 145 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 145 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 140 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 145 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 140 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 140 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 135 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 140 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 135 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 135 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 130 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 135 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 130 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 130 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 125 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 130 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 125 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 125 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 120 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 125 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 120 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 120 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 115 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 120 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 115 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 115 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 110 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 115 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 110 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 110 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 105 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 110 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 105 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 105 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 100 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 105 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 100 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 100 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 95 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 100 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 95 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 95 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 90 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 95 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 90 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 90 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 85 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 90 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 85 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 85 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 80 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 85 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 80 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 80 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 75 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 80 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 75 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 75 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 70 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 75 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 70 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 70 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 65 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 70 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 65 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 65 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 60 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 65 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 60 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 60 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 55 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 60 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 55 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 55 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 50 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 55 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 50 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 50 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 45 } }
+                }
+                AND = {
+                    year = 1836
+                    LCT = { NOT = { check_variable  = { which = inflation_early value = 50 } } }
+                    LCT = { check_variable  = { which = inflation_early value = 45 } }
+                    LCT = { NOT = { check_variable  = { which = inflation_late value = 45 } } }               
+                    LCT = { check_variable  = { which = inflation_late value = 40 } }
+                }
+            }
+        }
+
+        effect = {
+            add_country_modifier = {
+                name = flatline
+                duration = 90
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+
+    Set_WB_1 = {
+        picture = unite_the_principalities
+
+		potential = {
+            Month = 0
+            NOT = { Month = 1 }
+            tag = GHO
+            NOT = { GHO = { has_country_flag = WB_1 } }
+        }
+
+        allow = {
+            tag = GHO
+            Month = 0
+            NOT = { Month = 1 }
+            has_country_modifier = inflation_early_check_done
+            NOT = { has_country_modifier = WB_level_check_done }
+            NOT = { has_country_modifier = flatline }
+            OR = {
+                AND = {
+                    year = 1836
+                    NOT = { year = 1860 }
+                    LCT = { check_variable  = { which = inflation_early value = 68.8 } }
+                }
+                AND = {
+                    year = 1860
+                    NOT = { year = 1880 }
+                    LCT = { check_variable  = { which = inflation_early value = 83.3 } }
+                }
+                AND = {
+                    year = 1880
+                    NOT = { year = 1890 }
+                    LCT = { check_variable  = { which = inflation_early value = 97.8 } }
+                }
+                AND = {
+                    year = 1890
+                    NOT = { year = 1900 }
+                    LCT = { check_variable  = { which = inflation_early value = 112.3 } }
+                }
+                AND = {
+                    year = 1900
+                    NOT = { year = 1910 }
+                    LCT = { check_variable  = { which = inflation_early value = 126.8 } }
+                }
+                AND = {
+                    year = 1910
+                    NOT = { year = 1920 }
+                    LCT = { check_variable  = { which = inflation_early value = 141.3 } }
+                }
+                AND = {
+                    year = 1920
+                    NOT = { year = 1930 }
+                    LCT = { check_variable  = { which = inflation_early value = 155.8 } }
+                }
+                AND = {
+                    year = 1930
+                    NOT = { year = 1940 }
+                    LCT = { check_variable  = { which = inflation_early value = 170.1 } }
+                }
+            }
+        }
+
+        effect = {
+            GHO = {
+                add_country_modifier = {
+                    name = WB_level_check_done
+                    duration = 40
+                }
+            set_country_flag = WB_1
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Set_WB_2 = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 0
+            NOT = { Month = 1 }
+            tag = GHO
+            GHO = { has_country_flag = WB_1 }
+            NOT = { GHO = { has_country_flag = WB_2 } } 
+        }
+
+        allow = {
+            tag = GHO
+            Month = 0
+            NOT = { Month = 1 }
+            has_country_modifier = inflation_early_check_done
+            NOT = { has_country_modifier = WB_level_check_done }
+            NOT = { has_country_modifier = flatline }
+            OR = {
+                AND = {
+                    year = 1836
+                    NOT = { year = 1860 }
+                    LCT = { check_variable  = { which = inflation_early value = 68.8 } }
+                }
+                AND = {
+                    year = 1860
+                    NOT = { year = 1880 }
+                    LCT = { check_variable  = { which = inflation_early value = 83.3 } }
+                }
+                AND = {
+                    year = 1880
+                    NOT = { year = 1890 }
+                    LCT = { check_variable  = { which = inflation_early value = 97.8 } }
+                }
+                AND = {
+                    year = 1890
+                    NOT = { year = 1900 }
+                    LCT = { check_variable  = { which = inflation_early value = 112.3 } }
+                }
+                AND = {
+                    year = 1900
+                    NOT = { year = 1910 }
+                    LCT = { check_variable  = { which = inflation_early value = 126.8 } }
+                }
+                AND = {
+                    year = 1910
+                    NOT = { year = 1920 }
+                    LCT = { check_variable  = { which = inflation_early value = 141.3 } }
+                }
+                AND = {
+                    year = 1920
+                    NOT = { year = 1930 }
+                    LCT = { check_variable  = { which = inflation_early value = 155.8 } }
+                }
+                AND = {
+                    year = 1930
+                    NOT = { year = 1940 }
+                    LCT = { check_variable  = { which = inflation_early value = 170.1 } }
+                }
+            }
+        }
+
+        effect = {
+            GHO = {
+                add_country_modifier = {
+                    name = WB_level_check_done
+                    duration = 40
+                }
+            set_country_flag = WB_2
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Set_WB_3 = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 0
+            NOT = { Month = 1 }
+            tag = GHO
+            GHO = { has_country_flag = ED_1 }
+            NOT = { GHO = { has_country_flag = WB_3 } } 
+        }
+
+        allow = {
+            tag = GHO
+            Month = 0
+            NOT = { Month = 1 }
+            has_country_modifier = inflation_early_check_done
+            NOT = { has_country_modifier = WB_level_check_done }
+            NOT = { has_country_modifier = flatline }
+            OR = {
+                AND = {
+                    year = 1836
+                    NOT = { year = 1860 }
+                    LCT = { check_variable  = { which = inflation_early value = 68.8 } }
+                }
+                AND = {
+                    year = 1860
+                    NOT = { year = 1880 }
+                    LCT = { check_variable  = { which = inflation_early value = 83.3 } }
+                }
+                AND = {
+                    year = 1880
+                    NOT = { year = 1890 }
+                    LCT = { check_variable  = { which = inflation_early value = 97.8 } }
+                }
+                AND = {
+                    year = 1890
+                    NOT = { year = 1900 }
+                    LCT = { check_variable  = { which = inflation_early value = 112.3 } }
+                }
+                AND = {
+                    year = 1900
+                    NOT = { year = 1910 }
+                    LCT = { check_variable  = { which = inflation_early value = 126.8 } }
+                }
+                AND = {
+                    year = 1910
+                    NOT = { year = 1920 }
+                    LCT = { check_variable  = { which = inflation_early value = 141.3 } }
+                }
+                AND = {
+                    year = 1920
+                    NOT = { year = 1930 }
+                    LCT = { check_variable  = { which = inflation_early value = 155.8 } }
+                }
+                AND = {
+                    year = 1930
+                    NOT = { year = 1940 }
+                    LCT = { check_variable  = { which = inflation_early value = 170.1 } }
+                }
+            }
+        }
+
+        effect = {
+            GHO = {
+                add_country_modifier = {
+                    name = WB_level_check_done
+                    duration = 40
+                }
+            set_country_flag = WB_3
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Set_WB_4 = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 0
+            NOT = { Month = 1 }
+            tag = GHO
+            GHO = { has_country_flag = WB_3 }
+            NOT = { GHO = { has_country_flag = WB_4 } } 
+        }
+
+        allow = {
+            tag = GHO
+            Month = 0
+            NOT = { Month = 1 }
+            has_country_modifier = inflation_early_check_done
+            NOT = { has_country_modifier = WB_level_check_done }
+            NOT = { has_country_modifier = flatline }
+            OR = {
+                AND = {
+                    year = 1836
+                    NOT = { year = 1860 }
+                    LCT = { check_variable  = { which = inflation_early value = 68.8 } }
+                }
+                AND = {
+                    year = 1860
+                    NOT = { year = 1880 }
+                    LCT = { check_variable  = { which = inflation_early value = 83.3 } }
+                }
+                AND = {
+                    year = 1880
+                    NOT = { year = 1890 }
+                    LCT = { check_variable  = { which = inflation_early value = 97.8 } }
+                }
+                AND = {
+                    year = 1890
+                    NOT = { year = 1900 }
+                    LCT = { check_variable  = { which = inflation_early value = 112.3 } }
+                }
+                AND = {
+                    year = 1900
+                    NOT = { year = 1910 }
+                    LCT = { check_variable  = { which = inflation_early value = 126.8 } }
+                }
+                AND = {
+                    year = 1910
+                    NOT = { year = 1920 }
+                    LCT = { check_variable  = { which = inflation_early value = 141.3 } }
+                }
+                AND = {
+                    year = 1920
+                    NOT = { year = 1930 }
+                    LCT = { check_variable  = { which = inflation_early value = 155.8 } }
+                }
+                AND = {
+                    year = 1930
+                    NOT = { year = 1940 }
+                    LCT = { check_variable  = { which = inflation_early value = 170.1 } }
+                }
+            }
+
+        }
+
+        effect = {
+            GHO = {
+                add_country_modifier = {
+                    name = WB_level_check_done
+                    duration = 40
+                }
+            set_country_flag = WB_4
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Set_WB_5 = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 0
+            NOT = { Month = 1 }
+            tag = GHO
+            GHO = { has_country_flag = ED_2 }
+            NOT = { GHO = { has_country_flag = WB_5 } } 
+        }
+
+        allow = {
+            tag = GHO
+            Month = 0
+            NOT = { Month = 1 }
+            has_country_modifier = inflation_early_check_done
+            NOT = { has_country_modifier = WB_level_check_done }
+            NOT = { has_country_modifier = flatline }
+            OR = {
+                AND = {
+                    year = 1836
+                    NOT = { year = 1860 }
+                    LCT = { check_variable  = { which = inflation_early value = 68.8 } }
+                }
+                AND = {
+                    year = 1860
+                    NOT = { year = 1880 }
+                    LCT = { check_variable  = { which = inflation_early value = 83.3 } }
+                }
+                AND = {
+                    year = 1880
+                    NOT = { year = 1890 }
+                    LCT = { check_variable  = { which = inflation_early value = 97.8 } }
+                }
+                AND = {
+                    year = 1890
+                    NOT = { year = 1900 }
+                    LCT = { check_variable  = { which = inflation_early value = 112.3 } }
+                }
+                AND = {
+                    year = 1900
+                    NOT = { year = 1910 }
+                    LCT = { check_variable  = { which = inflation_early value = 126.8 } }
+                }
+                AND = {
+                    year = 1910
+                    NOT = { year = 1920 }
+                    LCT = { check_variable  = { which = inflation_early value = 141.3 } }
+                }
+                AND = {
+                    year = 1920
+                    NOT = { year = 1930 }
+                    LCT = { check_variable  = { which = inflation_early value = 155.8 } }
+                }
+                AND = {
+                    year = 1930
+                    NOT = { year = 1940 }
+                    LCT = { check_variable  = { which = inflation_early value = 170.1 } }
+                }
+            }
+        }
+
+        effect = {
+            GHO = {
+                add_country_modifier = {
+                    name = WB_level_check_done
+                    duration = 40
+                }
+            set_country_flag = WB_5
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Set_WB_6 = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 0
+            NOT = { Month = 1 }
+            tag = GHO
+            GHO = { has_country_flag = WB_5 }
+            NOT = { GHO = { has_country_flag = WB_6 } } 
+        }
+
+        allow = {
+            tag = GHO
+            Month = 0
+            NOT = { Month = 1 }
+            has_country_modifier = inflation_early_check_done
+            NOT = { has_country_modifier = WB_level_check_done }
+            NOT = { has_country_modifier = flatline }
+            OR = {
+                AND = {
+                    year = 1836
+                    NOT = { year = 1860 }
+                    LCT = { check_variable  = { which = inflation_early value = 68.8 } }
+                }
+                AND = {
+                    year = 1860
+                    NOT = { year = 1880 }
+                    LCT = { check_variable  = { which = inflation_early value = 83.3 } }
+                }
+                AND = {
+                    year = 1880
+                    NOT = { year = 1890 }
+                    LCT = { check_variable  = { which = inflation_early value = 97.8 } }
+                }
+                AND = {
+                    year = 1890
+                    NOT = { year = 1900 }
+                    LCT = { check_variable  = { which = inflation_early value = 112.3 } }
+                }
+                AND = {
+                    year = 1900
+                    NOT = { year = 1910 }
+                    LCT = { check_variable  = { which = inflation_early value = 126.8 } }
+                }
+                AND = {
+                    year = 1910
+                    NOT = { year = 1920 }
+                    LCT = { check_variable  = { which = inflation_early value = 141.3 } }
+                }
+                AND = {
+                    year = 1920
+                    NOT = { year = 1930 }
+                    LCT = { check_variable  = { which = inflation_early value = 155.8 } }
+                }
+                AND = {
+                    year = 1930
+                    NOT = { year = 1940 }
+                    LCT = { check_variable  = { which = inflation_early value = 170.1 } }
+                }
+            }
+        }
+
+        effect = {
+            GHO = {
+                add_country_modifier = {
+                    name = WB_level_check_done
+                    duration = 40
+                }
+            set_country_flag = WB_6
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Set_ED_1 = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 0
+            NOT = { Month = 1 }
+            tag = GHO
+            GHO = { has_country_flag = WB_2 }
+            NOT = { GHO = { has_country_flag = ED_1 } } 
+        }
+
+        allow = {
+            tag = GHO
+            Month = 0
+            NOT = { Month = 1 }
+            has_country_modifier = inflation_early_check_done
+            NOT = { has_country_modifier = WB_level_check_done }
+            NOT = { has_country_modifier = flatline }
+            OR = {
+                AND = {
+                    year = 1836
+                    NOT = { year = 1860 }
+                    LCT = { check_variable  = { which = inflation_early value = 68.8 } }
+                }
+                AND = {
+                    year = 1860
+                    NOT = { year = 1880 }
+                    LCT = { check_variable  = { which = inflation_early value = 83.3 } }
+                }
+                AND = {
+                    year = 1880
+                    NOT = { year = 1890 }
+                    LCT = { check_variable  = { which = inflation_early value = 97.8 } }
+                }
+                AND = {
+                    year = 1890
+                    NOT = { year = 1900 }
+                    LCT = { check_variable  = { which = inflation_early value = 112.3 } }
+                }
+                AND = {
+                    year = 1900
+                    NOT = { year = 1910 }
+                    LCT = { check_variable  = { which = inflation_early value = 126.8 } }
+                }
+                AND = {
+                    year = 1910
+                    NOT = { year = 1920 }
+                    LCT = { check_variable  = { which = inflation_early value = 141.3 } }
+                }
+                AND = {
+                    year = 1920
+                    NOT = { year = 1930 }
+                    LCT = { check_variable  = { which = inflation_early value = 155.8 } }
+                }
+                AND = {
+                    year = 1930
+                    NOT = { year = 1940 }
+                    LCT = { check_variable  = { which = inflation_early value = 170.1 } }
+                }
+            }
+        }
+
+        effect = {
+            GHO = {
+                add_country_modifier = {
+                    name = WB_level_check_done
+                    duration = 40
+                }
+            set_country_flag = ED_1
+            }
+            any_country = {
+                add_country_modifier = {
+                name = ED_1
+                duration = -1
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Set_ED_2 = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 0
+            NOT = { Month = 1 }
+            tag = GHO
+            GHO = { has_country_flag = WB_4 }
+            NOT = { GHO = { has_country_flag = ED_2 } } 
+        }
+
+        allow = {
+            tag = GHO
+            Month = 0
+            NOT = { Month = 1 }
+            has_country_modifier = inflation_early_check_done
+            NOT = { has_country_modifier = WB_level_check_done }
+            NOT = { has_country_modifier = flatline }
+            OR = {
+                AND = {
+                    year = 1836
+                    NOT = { year = 1860 }
+                    LCT = { check_variable  = { which = inflation_early value = 68.8 } }
+                }
+                AND = {
+                    year = 1860
+                    NOT = { year = 1880 }
+                    LCT = { check_variable  = { which = inflation_early value = 83.3 } }
+                }
+                AND = {
+                    year = 1880
+                    NOT = { year = 1890 }
+                    LCT = { check_variable  = { which = inflation_early value = 97.8 } }
+                }
+                AND = {
+                    year = 1890
+                    NOT = { year = 1900 }
+                    LCT = { check_variable  = { which = inflation_early value = 112.3 } }
+                }
+                AND = {
+                    year = 1900
+                    NOT = { year = 1910 }
+                    LCT = { check_variable  = { which = inflation_early value = 126.8 } }
+                }
+                AND = {
+                    year = 1910
+                    NOT = { year = 1920 }
+                    LCT = { check_variable  = { which = inflation_early value = 141.3 } }
+                }
+                AND = {
+                    year = 1920
+                    NOT = { year = 1930 }
+                    LCT = { check_variable  = { which = inflation_early value = 155.8 } }
+                }
+                AND = {
+                    year = 1930
+                    NOT = { year = 1940 }
+                    LCT = { check_variable  = { which = inflation_early value = 170.1 } }
+                }
+            }
+        }
+
+        effect = {
+            GHO = {
+                add_country_modifier = {
+                    name = WB_level_check_done
+                    duration = 40
+                }
+            set_country_flag = ED_2
+            }
+            any_country = {
+                add_country_modifier = {
+                name = ED_2
+                duration = -1
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Set_ED_3 = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 0
+            NOT = { Month = 1 }
+            tag = GHO
+            GHO = { has_country_flag = WB_6 }
+            NOT = { GHO = { has_country_flag = ED_3 } } 
+        }
+
+        allow = {
+            tag = GHO
+            Month = 0
+            NOT = { Month = 1 }
+            has_country_modifier = inflation_early_check_done
+            NOT = { has_country_modifier = WB_level_check_done }
+            NOT = { has_country_modifier = flatline }
+            OR = {
+                AND = {
+                    year = 1836
+                    NOT = { year = 1860 }
+                    LCT = { check_variable  = { which = inflation_early value = 68.8 } }
+                }
+                AND = {
+                    year = 1860
+                    NOT = { year = 1880 }
+                    LCT = { check_variable  = { which = inflation_early value = 83.3 } }
+                }
+                AND = {
+                    year = 1880
+                    NOT = { year = 1890 }
+                    LCT = { check_variable  = { which = inflation_early value = 97.8 } }
+                }
+                AND = {
+                    year = 1890
+                    NOT = { year = 1900 }
+                    LCT = { check_variable  = { which = inflation_early value = 112.3 } }
+                }
+                AND = {
+                    year = 1900
+                    NOT = { year = 1910 }
+                    LCT = { check_variable  = { which = inflation_early value = 126.8 } }
+                }
+                AND = {
+                    year = 1910
+                    NOT = { year = 1920 }
+                    LCT = { check_variable  = { which = inflation_early value = 141.3 } }
+                }
+                AND = {
+                    year = 1920
+                    NOT = { year = 1930 }
+                    LCT = { check_variable  = { which = inflation_early value = 155.8 } }
+                }
+                AND = {
+                    year = 1930
+                    NOT = { year = 1940 }
+                    LCT = { check_variable  = { which = inflation_early value = 170.1 } }
+                }
+            }
+        }
+
+        effect = {
+            GHO = {
+                add_country_modifier = {
+                    name = WB_level_check_done
+                    duration = 40
+                }
+            set_country_flag = ED_3
+            }
+            any_country = {
+                add_country_modifier = {
+                name = ED_3
+                duration = -1
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+
+    Clr_ED_3 = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 0
+            NOT = { Month = 1 }
+            tag = GHO
+            GHO = { has_country_flag = ED_3 }
+        }
+
+        allow = {
+            tag = GHO
+            Month = 0
+            NOT = { Month = 1 }
+            has_country_modifier = inflation_early_check_done
+            NOT = { has_country_modifier = WB_level_check_done }
+            OR = {
+                AND = {
+                    year = 1836
+                    NOT = { year = 1860 }
+                    LCT = { check_variable  = { which = inflation_early value = 68.8 } }
+                }
+                AND = {
+                    year = 1860
+                    NOT = { year = 1880 }
+                    LCT = { check_variable  = { which = inflation_early value = 83.3 } }
+                }
+                AND = {
+                    year = 1880
+                    NOT = { year = 1890 }
+                    LCT = { check_variable  = { which = inflation_early value = 97.8 } }
+                }
+                AND = {
+                    year = 1890
+                    NOT = { year = 1900 }
+                    LCT = { check_variable  = { which = inflation_early value = 112.3 } }
+                }
+                AND = {
+                    year = 1900
+                    NOT = { year = 1910 }
+                    LCT = { check_variable  = { which = inflation_early value = 126.8 } }
+                }
+                AND = {
+                    year = 1910
+                    NOT = { year = 1920 }
+                    LCT = { check_variable  = { which = inflation_early value = 141.3 } }
+                }
+                AND = {
+                    year = 1920
+                    NOT = { year = 1930 }
+                    LCT = { check_variable  = { which = inflation_early value = 155.8 } }
+                }
+                AND = {
+                    year = 1930
+                    NOT = { year = 1940 }
+                    LCT = { check_variable  = { which = inflation_early value = 170.1 } }
+                }
+            }
+        }
+
+        effect = {
+            GHO = {
+                add_country_modifier = {
+                    name = WB_level_check_done
+                    duration = 40
+                }
+            clr_country_flag = ED_3
+            any_country = { remove_country_modifier = ED_3 }
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Clr_ED_2 = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 0
+            NOT = { Month = 1 }
+            tag = GHO
+            GHO = { has_country_flag = ED_2 }
+            NOT = { GHO = { has_country_flag = WB_5 } }
+        }
+
+        allow = {
+            tag = GHO
+            Month = 0
+            NOT = { Month = 1 }
+            has_country_modifier = inflation_early_check_done
+            NOT = { has_country_modifier = WB_level_check_done }
+            OR = {
+                AND = {
+                    year = 1836
+                    NOT = { year = 1860 }
+                    LCT = { check_variable  = { which = inflation_early value = 68.8 } }
+                }
+                AND = {
+                    year = 1860
+                    NOT = { year = 1880 }
+                    LCT = { check_variable  = { which = inflation_early value = 83.3 } }
+                }
+                AND = {
+                    year = 1880
+                    NOT = { year = 1890 }
+                    LCT = { check_variable  = { which = inflation_early value = 97.8 } }
+                }
+                AND = {
+                    year = 1890
+                    NOT = { year = 1900 }
+                    LCT = { check_variable  = { which = inflation_early value = 112.3 } }
+                }
+                AND = {
+                    year = 1900
+                    NOT = { year = 1910 }
+                    LCT = { check_variable  = { which = inflation_early value = 126.8 } }
+                }
+                AND = {
+                    year = 1910
+                    NOT = { year = 1920 }
+                    LCT = { check_variable  = { which = inflation_early value = 141.3 } }
+                }
+                AND = {
+                    year = 1920
+                    NOT = { year = 1930 }
+                    LCT = { check_variable  = { which = inflation_early value = 155.8 } }
+                }
+                AND = {
+                    year = 1930
+                    NOT = { year = 1940 }
+                    LCT = { check_variable  = { which = inflation_early value = 170.1 } }
+                }
+            }
+        }
+
+        effect = {
+            GHO = {
+                add_country_modifier = {
+                    name = WB_level_check_done
+                    duration = 40
+                }
+            clr_country_flag = ED_2
+            any_country = { remove_country_modifier = ED_2 }
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Clr_ED_1 = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 0
+            NOT = { Month = 1 }
+            tag = GHO
+            GHO = { has_country_flag = ED_1 }
+            NOT = { GHO = { has_country_flag = WB_3 } }
+        }
+
+        allow = {
+            tag = GHO
+            Month = 0
+            NOT = { Month = 1 }
+            has_country_modifier = inflation_early_check_done
+            NOT = { has_country_modifier = WB_level_check_done }
+            OR = {
+                AND = {
+                    year = 1836
+                    NOT = { year = 1860 }
+                    LCT = { check_variable  = { which = inflation_early value = 68.8 } }
+                }
+                AND = {
+                    year = 1860
+                    NOT = { year = 1880 }
+                    LCT = { check_variable  = { which = inflation_early value = 83.3 } }
+                }
+                AND = {
+                    year = 1880
+                    NOT = { year = 1890 }
+                    LCT = { check_variable  = { which = inflation_early value = 97.8 } }
+                }
+                AND = {
+                    year = 1890
+                    NOT = { year = 1900 }
+                    LCT = { check_variable  = { which = inflation_early value = 112.3 } }
+                }
+                AND = {
+                    year = 1900
+                    NOT = { year = 1910 }
+                    LCT = { check_variable  = { which = inflation_early value = 126.8 } }
+                }
+                AND = {
+                    year = 1910
+                    NOT = { year = 1920 }
+                    LCT = { check_variable  = { which = inflation_early value = 141.3 } }
+                }
+                AND = {
+                    year = 1920
+                    NOT = { year = 1930 }
+                    LCT = { check_variable  = { which = inflation_early value = 155.8 } }
+                }
+                AND = {
+                    year = 1930
+                    NOT = { year = 1940 }
+                    LCT = { check_variable  = { which = inflation_early value = 170.1 } }
+                }
+            }
+        }
+
+        effect = {
+            GHO = {
+                add_country_modifier = {
+                    name = WB_level_check_done
+                    duration = 40
+                }
+            clr_country_flag = ED_1
+            any_country = { remove_country_modifier = ED_1 }
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Clr_WB_6 = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 0
+            NOT = { Month = 1 }
+            tag = GHO
+            GHO = { has_country_flag = WB_6 }
+            NOT = { GHO = { has_country_flag = ED_3 } }
+        }
+
+        allow = {
+            tag = GHO
+            Month = 0
+            NOT = { Month = 1 }
+            has_country_modifier = inflation_early_check_done
+            NOT = { has_country_modifier = WB_level_check_done }
+            OR = {
+                AND = {
+                    year = 1836
+                    NOT = { year = 1860 }
+                    LCT = { check_variable  = { which = inflation_early value = 68.8 } }
+                }
+                AND = {
+                    year = 1860
+                    NOT = { year = 1880 }
+                    LCT = { check_variable  = { which = inflation_early value = 83.3 } }
+                }
+                AND = {
+                    year = 1880
+                    NOT = { year = 1890 }
+                    LCT = { check_variable  = { which = inflation_early value = 97.8 } }
+                }
+                AND = {
+                    year = 1890
+                    NOT = { year = 1900 }
+                    LCT = { check_variable  = { which = inflation_early value = 112.3 } }
+                }
+                AND = {
+                    year = 1900
+                    NOT = { year = 1910 }
+                    LCT = { check_variable  = { which = inflation_early value = 126.8 } }
+                }
+                AND = {
+                    year = 1910
+                    NOT = { year = 1920 }
+                    LCT = { check_variable  = { which = inflation_early value = 141.3 } }
+                }
+                AND = {
+                    year = 1920
+                    NOT = { year = 1930 }
+                    LCT = { check_variable  = { which = inflation_early value = 155.8 } }
+                }
+                AND = {
+                    year = 1930
+                    NOT = { year = 1940 }
+                    LCT = { check_variable  = { which = inflation_early value = 170.1 } }
+                }
+            }
+        }
+
+        effect = {
+            GHO = {
+                add_country_modifier = {
+                    name = WB_level_check_done
+                    duration = 40
+                }
+            clr_country_flag = WB_6
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Clr_WB_5 = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 0
+            NOT = { Month = 1 }
+            tag = GHO
+            GHO = { has_country_flag = WB_5 }
+            NOT = { GHO = { has_country_flag = WB_6 } }
+        }
+
+        allow = {
+            tag = GHO
+            Month = 0
+            NOT = { Month = 1 }
+            has_country_modifier = inflation_early_check_done
+            NOT = { has_country_modifier = WB_level_check_done }
+            OR = {
+                AND = {
+                    year = 1836
+                    NOT = { year = 1860 }
+                    LCT = { check_variable  = { which = inflation_early value = 68.8 } }
+                }
+                AND = {
+                    year = 1860
+                    NOT = { year = 1880 }
+                    LCT = { check_variable  = { which = inflation_early value = 83.3 } }
+                }
+                AND = {
+                    year = 1880
+                    NOT = { year = 1890 }
+                    LCT = { check_variable  = { which = inflation_early value = 97.8 } }
+                }
+                AND = {
+                    year = 1890
+                    NOT = { year = 1900 }
+                    LCT = { check_variable  = { which = inflation_early value = 112.3 } }
+                }
+                AND = {
+                    year = 1900
+                    NOT = { year = 1910 }
+                    LCT = { check_variable  = { which = inflation_early value = 126.8 } }
+                }
+                AND = {
+                    year = 1910
+                    NOT = { year = 1920 }
+                    LCT = { check_variable  = { which = inflation_early value = 141.3 } }
+                }
+                AND = {
+                    year = 1920
+                    NOT = { year = 1930 }
+                    LCT = { check_variable  = { which = inflation_early value = 155.8 } }
+                }
+                AND = {
+                    year = 1930
+                    NOT = { year = 1940 }
+                    LCT = { check_variable  = { which = inflation_early value = 170.1 } }
+                }
+            }
+        }
+
+        effect = {
+            GHO = {
+                add_country_modifier = {
+                    name = WB_level_check_done
+                    duration = 40
+                }
+            clr_country_flag = WB_5
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Clr_WB_4 = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 0
+            NOT = { Month = 1 }
+            tag = GHO
+            GHO = { has_country_flag = WB_4 }
+            NOT = { GHO = { has_country_flag = ED_2 } }
+        }
+
+        allow = {
+            tag = GHO
+            Month = 0
+            NOT = { Month = 1 }
+            has_country_modifier = inflation_early_check_done
+            NOT = { has_country_modifier = WB_level_check_done }
+            OR = {
+                AND = {
+                    year = 1836
+                    NOT = { year = 1860 }
+                    LCT = { check_variable  = { which = inflation_early value = 68.8 } }
+                }
+                AND = {
+                    year = 1860
+                    NOT = { year = 1880 }
+                    LCT = { check_variable  = { which = inflation_early value = 83.3 } }
+                }
+                AND = {
+                    year = 1880
+                    NOT = { year = 1890 }
+                    LCT = { check_variable  = { which = inflation_early value = 97.8 } }
+                }
+                AND = {
+                    year = 1890
+                    NOT = { year = 1900 }
+                    LCT = { check_variable  = { which = inflation_early value = 112.3 } }
+                }
+                AND = {
+                    year = 1900
+                    NOT = { year = 1910 }
+                    LCT = { check_variable  = { which = inflation_early value = 126.8 } }
+                }
+                AND = {
+                    year = 1910
+                    NOT = { year = 1920 }
+                    LCT = { check_variable  = { which = inflation_early value = 141.3 } }
+                }
+                AND = {
+                    year = 1920
+                    NOT = { year = 1930 }
+                    LCT = { check_variable  = { which = inflation_early value = 155.8 } }
+                }
+                AND = {
+                    year = 1930
+                    NOT = { year = 1940 }
+                    LCT = { check_variable  = { which = inflation_early value = 170.1 } }
+                }
+            }
+        }
+
+        effect = {
+            GHO = {
+                add_country_modifier = {
+                    name = WB_level_check_done
+                    duration = 40
+                }
+            clr_country_flag = WB_4
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Clr_WB_3 = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 0
+            NOT = { Month = 1 }
+            tag = GHO
+            GHO = { has_country_flag = WB_3 }
+            NOT = { GHO = { has_country_flag = WB_4 } }
+        }
+
+        allow = {
+            tag = GHO
+            Month = 0
+            NOT = { Month = 1 }
+            has_country_modifier = inflation_early_check_done
+            NOT = { has_country_modifier = WB_level_check_done }
+            OR = {
+                AND = {
+                    year = 1836
+                    NOT = { year = 1860 }
+                    LCT = { check_variable  = { which = inflation_early value = 68.8 } }
+                }
+                AND = {
+                    year = 1860
+                    NOT = { year = 1880 }
+                    LCT = { check_variable  = { which = inflation_early value = 83.3 } }
+                }
+                AND = {
+                    year = 1880
+                    NOT = { year = 1890 }
+                    LCT = { check_variable  = { which = inflation_early value = 97.8 } }
+                }
+                AND = {
+                    year = 1890
+                    NOT = { year = 1900 }
+                    LCT = { check_variable  = { which = inflation_early value = 112.3 } }
+                }
+                AND = {
+                    year = 1900
+                    NOT = { year = 1910 }
+                    LCT = { check_variable  = { which = inflation_early value = 126.8 } }
+                }
+                AND = {
+                    year = 1910
+                    NOT = { year = 1920 }
+                    LCT = { check_variable  = { which = inflation_early value = 141.3 } }
+                }
+                AND = {
+                    year = 1920
+                    NOT = { year = 1930 }
+                    LCT = { check_variable  = { which = inflation_early value = 155.8 } }
+                }
+                AND = {
+                    year = 1930
+                    NOT = { year = 1940 }
+                    LCT = { check_variable  = { which = inflation_early value = 170.1 } }
+                }
+            }
+        }
+
+        effect = {
+            GHO = {
+                add_country_modifier = {
+                    name = WB_level_check_done
+                    duration = 40
+                }
+            clr_country_flag = WB_3
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Clr_WB_2 = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 0
+            NOT = { Month = 1 }
+            tag = GHO
+            GHO = { has_country_flag = WB_2 }
+            NOT = { GHO = { has_country_flag = ED_1 } }
+        }
+
+        allow = {
+            tag = GHO
+            Month = 0
+            NOT = { Month = 1 }
+            has_country_modifier = inflation_early_check_done
+            NOT = { has_country_modifier = WB_level_check_done }
+            OR = {
+                AND = {
+                    year = 1836
+                    NOT = { year = 1860 }
+                    LCT = { check_variable  = { which = inflation_early value = 68.8 } }
+                }
+                AND = {
+                    year = 1860
+                    NOT = { year = 1880 }
+                    LCT = { check_variable  = { which = inflation_early value = 83.3 } }
+                }
+                AND = {
+                    year = 1880
+                    NOT = { year = 1890 }
+                    LCT = { check_variable  = { which = inflation_early value = 97.8 } }
+                }
+                AND = {
+                    year = 1890
+                    NOT = { year = 1900 }
+                    LCT = { check_variable  = { which = inflation_early value = 112.3 } }
+                }
+                AND = {
+                    year = 1900
+                    NOT = { year = 1910 }
+                    LCT = { check_variable  = { which = inflation_early value = 126.8 } }
+                }
+                AND = {
+                    year = 1910
+                    NOT = { year = 1920 }
+                    LCT = { check_variable  = { which = inflation_early value = 141.3 } }
+                }
+                AND = {
+                    year = 1920
+                    NOT = { year = 1930 }
+                    LCT = { check_variable  = { which = inflation_early value = 155.8 } }
+                }
+                AND = {
+                    year = 1930
+                    NOT = { year = 1940 }
+                    LCT = { check_variable  = { which = inflation_early value = 170.1 } }
+                }
+            }
+        }
+
+        effect = {
+            GHO = {
+                add_country_modifier = {
+                    name = WB_level_check_done
+                    duration = 40
+                }
+            clr_country_flag = WB_2
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Clr_WB_1 = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 0
+            NOT = { Month = 1 }
+            tag = GHO
+            GHO = { has_country_flag = WB_1 }
+            NOT = { GHO = { has_country_flag = WB_2 } }
+        }
+
+        allow = {
+            tag = GHO
+            Month = 0
+            NOT = { Month = 1 }
+            has_country_modifier = inflation_early_check_done
+            NOT = { has_country_modifier = WB_level_check_done }
+            OR = {
+                AND = {
+                    year = 1836
+                    NOT = { year = 1860 }
+                    LCT = { check_variable  = { which = inflation_early value = 68.8 } }
+                }
+                AND = {
+                    year = 1860
+                    NOT = { year = 1880 }
+                    LCT = { check_variable  = { which = inflation_early value = 83.3 } }
+                }
+                AND = {
+                    year = 1880
+                    NOT = { year = 1890 }
+                    LCT = { check_variable  = { which = inflation_early value = 97.8 } }
+                }
+                AND = {
+                    year = 1890
+                    NOT = { year = 1900 }
+                    LCT = { check_variable  = { which = inflation_early value = 112.3 } }
+                }
+                AND = {
+                    year = 1900
+                    NOT = { year = 1910 }
+                    LCT = { check_variable  = { which = inflation_early value = 126.8 } }
+                }
+                AND = {
+                    year = 1910
+                    NOT = { year = 1920 }
+                    LCT = { check_variable  = { which = inflation_early value = 141.3 } }
+                }
+                AND = {
+                    year = 1920
+                    NOT = { year = 1930 }
+                    LCT = { check_variable  = { which = inflation_early value = 155.8 } }
+                }
+                AND = {
+                    year = 1930
+                    NOT = { year = 1940 }
+                    LCT = { check_variable  = { which = inflation_early value = 170.1 } }
+                }
+            }
+        }
+
+        effect = {
+            GHO = {
+                add_country_modifier = {
+                    name = WB_level_check_done
+                    duration = 40
+                }
+            clr_country_flag = WB_1
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Inflation_save_0_reset = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 11
+            tag = GHO
+            OR = {
+                year = 1839
+                year = 1849
+                year = 1859
+                year = 1869
+                year = 1879
+                year = 1889
+                year = 1899
+                year = 1909
+                year = 1919
+                year = 1929
+                year = 1939
+            }
+        }
+
+        allow = {
+            Month = 11
+            tag = GHO
+            OR = {
+                year = 1839
+                year = 1849
+                year = 1859
+                year = 1869
+                year = 1879
+                year = 1889
+                year = 1899
+                year = 1909
+                year = 1919
+                year = 1929
+                year = 1939
+            }
+        }
+
+        effect = {
+            LCT = {
+                change_variable = { which = inflation_save_9 value = -0.001 }
+                set_variable = { which = inflation_save_0 value = 0.001 } 
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Inflation_save_1_reset = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 11
+            tag = GHO
+            OR = {
+                year = 1840
+                year = 1850
+                year = 1860
+                year = 1870
+                year = 1880
+                year = 1890
+                year = 1900
+                year = 1910
+                year = 1920
+                year = 1930
+                year = 1940
+            }
+        }
+
+        allow = {
+            Month = 11
+            tag = GHO
+            OR = {
+                year = 1840
+                year = 1850
+                year = 1860
+                year = 1870
+                year = 1880
+                year = 1890
+                year = 1900
+                year = 1910
+                year = 1920
+                year = 1930
+                year = 1940
+            }
+        }
+
+        effect = {
+            LCT = {
+                change_variable = { which = inflation_save_0 value = -0.001 }
+                set_variable = { which = inflation_save_1 value = 0.001 } 
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Inflation_save_2_reset = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 11
+            tag = GHO
+            OR = {
+                year = 1841
+                year = 1851
+                year = 1861
+                year = 1871
+                year = 1881
+                year = 1891
+                year = 1901
+                year = 1911
+                year = 1921
+                year = 1931
+                year = 1941
+            }
+        }
+
+        allow = {
+            Month = 11
+            tag = GHO
+            OR = {
+                year = 1841
+                year = 1851
+                year = 1861
+                year = 1871
+                year = 1881
+                year = 1891
+                year = 1901
+                year = 1911
+                year = 1921
+                year = 1931
+                year = 1941
+            }
+        }
+
+        effect = {
+            LCT = {
+                change_variable = { which = inflation_save_1 value = -0.001 }
+                set_variable = { which = inflation_save_2 value = 0.001 } 
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Inflation_save_3_reset = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 11
+            tag = GHO
+            OR = {
+                year = 1842
+                year = 1852
+                year = 1862
+                year = 1872
+                year = 1882
+                year = 1892
+                year = 1902
+                year = 1912
+                year = 1922
+                year = 1932
+                year = 1942
+            }
+        }
+
+        allow = {
+            Month = 11
+            tag = GHO
+            OR = {
+                year = 1842
+                year = 1852
+                year = 1862
+                year = 1872
+                year = 1882
+                year = 1892
+                year = 1902
+                year = 1912
+                year = 1922
+                year = 1932
+                year = 1942
+            }
+        }
+
+        effect = {
+            LCT = {
+                change_variable = { which = inflation_save_2 value = -0.001 }
+                set_variable = { which = inflation_save_3 value = 0.001 } 
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Inflation_save_4_reset = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 11
+            tag = GHO
+            OR = {
+                year = 1843
+                year = 1853
+                year = 1863
+                year = 1873
+                year = 1883
+                year = 1893
+                year = 1903
+                year = 1913
+                year = 1923
+                year = 1933
+                year = 1943
+            }
+        }
+
+        allow = {
+            Month = 11
+            tag = GHO
+            OR = {
+                year = 1843
+                year = 1853
+                year = 1863
+                year = 1873
+                year = 1883
+                year = 1893
+                year = 1903
+                year = 1913
+                year = 1923
+                year = 1933
+                year = 1943
+            }
+        }
+
+        effect = {
+            LCT = {
+                change_variable = { which = inflation_save_3 value = -0.001 }
+                set_variable = { which = inflation_save_4 value = 0.001 } 
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Inflation_save_5_reset = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 11
+            tag = GHO
+            OR = {
+                year = 1844
+                year = 1854
+                year = 1864
+                year = 1874
+                year = 1884
+                year = 1894
+                year = 1904
+                year = 1914
+                year = 1924
+                year = 1934
+                year = 1944
+            }
+        }
+
+        allow = {
+            Month = 11
+            tag = GHO
+            OR = {
+                year = 1844
+                year = 1854
+                year = 1864
+                year = 1874
+                year = 1884
+                year = 1894
+                year = 1904
+                year = 1914
+                year = 1924
+                year = 1934
+                year = 1944
+            }
+        }
+
+        effect = {
+            LCT = {
+                change_variable = { which = inflation_save_4 value = -0.001 }
+                set_variable = { which = inflation_save_5 value = 0.001 } 
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Inflation_save_6_reset = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 11
+            tag = GHO
+            OR = {
+                year = 1845
+                year = 1855
+                year = 1865
+                year = 1875
+                year = 1885
+                year = 1895
+                year = 1905
+                year = 1915
+                year = 1925
+                year = 1935
+                year = 1945
+            }
+        }
+
+        allow = {
+            Month = 11
+            tag = GHO
+            OR = {
+                year = 1845
+                year = 1855
+                year = 1865
+                year = 1875
+                year = 1885
+                year = 1895
+                year = 1905
+                year = 1915
+                year = 1925
+                year = 1935
+                year = 1945
+            }
+        }
+
+        effect = {
+            LCT = {
+                change_variable = { which = inflation_save_5 value = -0.001 }
+                set_variable = { which = inflation_save_6 value = 0.001 } 
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Inflation_save_7_reset = {
+        picture = unite_the_principalities
+
+        potential = {
+            tag = GHO
+            OR = {
+                year = 1836
+                year = 1846
+                year = 1856
+                year = 1866
+                year = 1876
+                year = 1886
+                year = 1896
+                year = 1906
+                year = 1916
+                year = 1926
+                year = 1936
+                year = 1946
+            }
+        }
+
+        allow = {
+            Month = 11
+            tag = GHO
+            OR = {
+                year = 1836
+                year = 1846
+                year = 1856
+                year = 1866
+                year = 1876
+                year = 1886
+                year = 1896
+                year = 1906
+                year = 1916
+                year = 1926
+                year = 1936
+                year = 1946
+            }
+        }
+
+        effect = {
+            LCT = {
+                change_variable = { which = inflation_save_6 value = -0.001 }
+                set_variable = { which = inflation_save_7 value = 0.001 } 
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Inflation_save_8_reset = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 11
+            tag = GHO
+            OR = {
+                year = 1837
+                year = 1847
+                year = 1857
+                year = 1867
+                year = 1877
+                year = 1887
+                year = 1897
+                year = 1907
+                year = 1917
+                year = 1927
+                year = 1937
+                year = 1947
+            }
+        }
+
+        allow = {
+            Month = 11
+            tag = GHO
+            OR = {
+                year = 1837
+                year = 1847
+                year = 1857
+                year = 1867
+                year = 1877
+                year = 1887
+                year = 1897
+                year = 1907
+                year = 1917
+                year = 1927
+                year = 1937
+                year = 1947
+            }
+        }
+
+        effect = {
+            LCT = {
+                change_variable = { which = inflation_save_7 value = -0.001 }
+                set_variable = { which = inflation_save_8 value = 0.001 } 
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Inflation_save_9_reset = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 11
+            tag = GHO
+            OR = {
+                year = 1838
+                year = 1848
+                year = 1858
+                year = 1868
+                year = 1878
+                year = 1888
+                year = 1898
+                year = 1908
+                year = 1918
+                year = 1928
+                year = 1938
+                year = 1948
+            }
+        }
+
+        allow = {
+            Month = 11
+            tag = GHO
+            OR = {
+                year = 1838
+                year = 1848
+                year = 1858
+                year = 1868
+                year = 1878
+                year = 1888
+                year = 1898
+                year = 1908
+                year = 1918
+                year = 1928
+                year = 1938
+                year = 1948
+            }
+        }
+
+        effect = {
+            LCT = {
+                change_variable = { which = inflation_save_8 value = -0.001 }
+                set_variable = { which = inflation_save_9 value = 0.001 } 
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+}

@@ -1,0 +1,541 @@
+political_decisions = {
+###Sardinia###
+###Turin###
+turinsar = {
+	picture = "Rebellion"
+	potential = {
+	SAR = {
+		owns = 720
+	}
+		tag = GHO
+		NOT = { has_global_flag = turinsar }
+	}
+	
+	allow = {
+	}
+
+	effect = {
+		set_global_flag = turinsar
+		SAR = {
+	 change_variable = {
+	 which = VP's
+	 value = 1
+	 }
+	}
+	}
+	ai_will_do = {
+            factor = 100
+        }
+}
+
+turinsarlost = {
+	potential = {
+	SAR = {
+		NOT = { owns = 720 }
+	}
+		tag = GHO
+		has_global_flag = turinsar 
+	}
+
+	allow = {
+	}
+
+	effect = {
+		clr_global_flag = turinsar
+	 SAR = {
+	 change_variable = {
+	 which = VP's
+	 value = -1
+	}
+	}
+	}
+	ai_will_do = {
+            factor = 100
+        }
+}
+
+###Modena###
+modenasar = {
+	potential = {
+	SAR = {
+		owns = 739
+	}
+		tag = GHO
+		NOT = { has_global_flag = modenasar }
+	}
+
+	allow = {
+}
+
+	effect = {
+		set_global_flag = modenasar
+	 SAR = {
+	 change_variable = {
+	 which = VP's
+	 value = 1
+	}
+}
+	}
+	ai_will_do = {
+            factor = 100
+        }
+}
+
+modenasarlost = {
+	potential = {
+	SAR = {
+		NOT = { owns = 739 }
+	}
+		tag = GHO
+		has_global_flag = modenasar 
+	}
+
+	allow = {
+	}
+	 
+
+	effect = {
+		clr_global_flag = modenasar
+	 SAR = {
+	 change_variable = {
+	 which = VP's
+	 value = -1
+	}
+	}
+	}
+	ai_will_do = {
+            factor = 100
+        }
+}
+
+###Florence###
+florencesar = {
+	potential = {
+	SAR = {
+		owns = 744
+	}
+		tag = GHO
+		NOT = { has_global_flag = florencesar }
+	}
+
+	allow = {
+}
+
+	effect = {
+		set_global_flag = florencesar
+	 SAR = {
+	 change_variable = {
+	 which = VP's
+	 value = 1
+	}
+	}
+	}
+	ai_will_do = {
+            factor = 100
+        }
+}
+
+florencesarlost = {
+	potential = {
+	SAR = {
+		NOT = { owns = 744 }
+	}
+		tag = GHO
+		has_global_flag = florencesar 
+	}
+
+	allow = {
+}
+
+	effect = {
+		clr_global_flag = florencesar
+	 SAR = {
+	 change_variable = {
+	 which = VP's
+	 value = -1
+	}
+	}
+	}
+	ai_will_do = {
+            factor = 100
+        }
+}
+
+###Rome###
+romesar = {
+	potential = {
+	SAR = {
+		owns = 749
+	}
+		tag = GHO
+		NOT = { has_global_flag = romesar }
+	}
+
+	allow = {
+}
+
+	effect = {
+		set_global_flag = romesar
+	 SAR = {
+	 change_variable = {
+	 which = VP's
+	 value = 1
+	}
+	}
+	}
+	ai_will_do = {
+            factor = 100
+        }
+}
+
+romesarlost = {
+	potential = {
+	SAR = {
+		NOT = { owns = 749 }
+	}
+		tag = GHO
+		has_global_flag = romesar 
+	}
+
+	allow = {
+}
+
+	effect = {
+		 clr_global_flag = romesar
+	 SAR = {
+	 change_variable = {
+	 which = VP's
+	 value = -1
+	}
+	}
+	}
+	ai_will_do = {
+            factor = 100
+        }
+}
+
+###Naples###
+naplessar = {
+	potential = {
+	SAR = {
+		owns = 754
+	}
+		tag = GHO
+		NOT = { has_global_flag = naplessar }
+	}
+
+	allow = {
+}
+
+	effect = {
+		immediate = {
+	 set_global_flag = naplessar
+	 SAR = {
+	 change_variable = {
+	 which = VP's
+	 value = 1
+	}
+	}
+	}
+	ai_will_do = {
+            factor = 100
+        }
+}
+}
+
+naplessarlost = {
+	potential = {
+	SAR = {
+		NOT = { owns = 754 }
+	}
+		tag = GHO
+		has_global_flag = naplessar 
+	}
+
+	allow = {
+}
+
+	effect = {
+		 clr_global_flag = naplessar
+	 SAR = {
+	 change_variable = {
+	 which = VP's
+	 value = -1
+	}
+	}
+	}
+	ai_will_do = {
+            factor = 100
+        }
+}
+
+##########Two Sicilies############
+
+###Turin###
+turinsic = {
+	picture = "Rebellion"
+	potential = {
+	SIC = {
+		owns = 720
+	}
+		tag = GHO
+		NOT = { has_global_flag = turinsic }
+	}
+	
+	allow = {
+	}
+
+	effect = {
+		set_global_flag = turinsic
+		SIC = {
+	 change_variable = {
+	 which = VP's
+	 value = 1
+	 }
+	}
+	}
+	ai_will_do = {
+            factor = 100
+        }
+}
+
+turinsiclost = {
+	potential = {
+	SIC = {
+		NOT = { owns = 720 }
+	}
+		tag = GHO
+		has_global_flag = turinsic 
+	}
+
+	allow = {
+	}
+
+	effect = {
+		clr_global_flag = turinsic
+	 SIC = {
+	 change_variable = {
+	 which = VP's
+	 value = -1
+	}
+	}
+	}
+	ai_will_do = {
+            factor = 100
+        }
+}
+
+###Modena###
+modenasic = {
+	potential = {
+	SIC = {
+		owns = 739
+	}
+		tag = GHO
+		NOT = { has_global_flag = modenasic }
+	}
+
+	allow = {
+}
+
+	effect = {
+		set_global_flag = modenasic
+	 SIC = {
+	 change_variable = {
+	 which = VP's
+	 value = 1
+	}
+}
+	}
+	ai_will_do = {
+            factor = 100
+        }
+}
+
+modenasiclost = {
+	potential = {
+	SIC = {
+		NOT = { owns = 739 }
+	}
+		tag = GHO
+		has_global_flag = modenasic 
+	}
+
+	allow = {
+	}
+	 
+
+	effect = {
+		clr_global_flag = modenasic
+	 SIC = {
+	 change_variable = {
+	 which = VP's
+	 value = -1
+	}
+	}
+	}
+	ai_will_do = {
+            factor = 100
+        }
+}
+
+###Florence###
+florencesic = {
+	potential = {
+	SIC = {
+		owns = 744
+	}
+		tag = GHO
+		NOT = { has_global_flag = florencesic }
+	}
+
+	allow = {
+}
+
+	effect = {
+		set_global_flag = florencesic
+	 SIC = {
+	 change_variable = {
+	 which = VP's
+	 value = 1
+	}
+	}
+	}
+	ai_will_do = {
+            factor = 100
+        }
+}
+
+florencesiclost = {
+	potential = {
+	SIC = {
+		NOT = { owns = 744 }
+	}
+		tag = GHO
+		has_global_flag = florencesic 
+	}
+
+	allow = {
+}
+
+	effect = {
+		clr_global_flag = florencesic
+	 SIC = {
+	 change_variable = {
+	 which = VP's
+	 value = -1
+	}
+	}
+	}
+	ai_will_do = {
+            factor = 100
+        }
+}
+
+###Rome###
+romesic = {
+	potential = {
+	SIC = {
+		owns = 749
+	}
+		tag = GHO
+		NOT = { has_global_flag = romesic }
+	}
+
+	allow = {
+}
+
+	effect = {
+		set_global_flag = romesic
+	 SIC = {
+	 change_variable = {
+	 which = VP's
+	 value = 1
+	}
+	}
+	}
+	ai_will_do = {
+            factor = 100
+        }
+}
+
+romesiclost = {
+	potential = {
+	SIC = {
+		NOT = { owns = 749 }
+	}
+		tag = GHO
+		has_global_flag = romesic 
+	}
+
+	allow = {
+}
+
+	effect = {
+		 clr_global_flag = romesic
+	 SIC = {
+	 change_variable = {
+	 which = VP's
+	 value = -10
+	}
+	}
+	}
+	ai_will_do = {
+            factor = 100
+        }
+}
+
+###Naples###
+naplessic = {
+	potential = {
+	SIC = {
+		owns = 754
+	}
+		tag = GHO
+		NOT = { has_global_flag = naplessic }
+	}
+
+	allow = {
+}
+
+	effect = {
+	 set_global_flag = naplessic
+	 SIC = {
+	 change_variable = {
+	 which = VP's
+	 value = 1
+	}
+	}
+	}
+	ai_will_do = {
+            factor = 100
+        }
+}
+
+naplessiclost = {
+	potential = {
+	SIC = {
+		NOT = { owns = 754 }
+	}
+		tag = GHO
+		has_global_flag = naplessic 
+	}
+
+	allow = {
+}
+
+	effect = {
+		 clr_global_flag = naplessic
+	 SIC = {
+	 change_variable = {
+	 which = VP's
+	 value = -1
+	}
+	}
+	}
+	ai_will_do = {
+            factor = 100
+        }
+}
+}
+###################################
